@@ -24060,13 +24060,14 @@
     },
     "AR-742": {
       "name": "Las Heras",
-      "provider": "unknown",
+      "provider": "local-isp",
       "domain": "municipiolasherassantacruz.gob.ar",
-      "confidence": 15,
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "AR-743": {
@@ -48753,11 +48754,13 @@
       "name": "Fließ",
       "provider": "microsoft",
       "domain": "fliess.gv.at",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
+        "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
+        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -80815,14 +80818,13 @@
     },
     "BO-308": {
       "name": "Viacha Municipality",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "viacha.gob.bo",
+      "confidence": 88,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BO-309": {
@@ -108943,13 +108945,13 @@
     },
     "BR-3122": {
       "name": "Montes Claros",
-      "provider": "unknown",
-      "domain": "portal.montesclaros.mg.gov.br",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "montesclaros.mg.gov.br",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3123": {
@@ -113517,13 +113519,14 @@
     },
     "BR-3485": {
       "name": "Palma Sola",
-      "provider": "unknown",
-      "domain": "palmasola.atende.net",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "palmasola.sc.gov.br",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3486": {
@@ -197869,7 +197872,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "CL-061": {
@@ -378877,13 +378881,14 @@
     },
     "ES-111": {
       "name": "Agulo",
-      "provider": "unknown",
-      "domain": "eadmin.agulo.org",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "aytoagulo.com",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-1110": {
@@ -386163,11 +386168,11 @@
     },
     "ES-169": {
       "name": "Albaladejo",
-      "provider": "local-isp",
-      "domain": "albaladejo.es",
-      "confidence": 88,
+      "provider": "independent",
+      "domain": "albaladejo.org",
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -388146,12 +388151,11 @@
     },
     "ES-1846": {
       "name": "Castellote",
-      "provider": "local-isp",
-      "domain": "castellote.es",
-      "confidence": 93,
+      "provider": "independent",
+      "domain": "castelloteweb.com",
+      "confidence": 90,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -396570,13 +396574,13 @@
     },
     "ES-2512": {
       "name": "El Hoyo de Pinares",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "elhoyodepinares.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2513": {
@@ -412395,14 +412399,13 @@
     },
     "ES-3762": {
       "name": "La Orotava",
-      "provider": "microsoft",
-      "domain": "villadelaorotava.org",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "laorotava.es",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3763": {
@@ -492193,13 +492196,14 @@
     },
     "GR-058": {
       "name": "Chalkideon",
-      "provider": "unknown",
-      "domain": "dimoschalkideon.gr",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "culture.gr",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "GR-059": {
@@ -504510,7 +504514,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "HR-101": {
@@ -554478,13 +554483,13 @@
     },
     "MT-39": {
       "name": "Pembroke",
-      "provider": "microsoft",
-      "domain": "gov.mt",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "pembrokelc.gov.mt",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "MT-40": {
@@ -592150,13 +592155,13 @@
     },
     "NG-289": {
       "name": "Ibeju-Lekki",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "ibejulekki.lg.gov.ng",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "NG-290": {
@@ -643345,13 +643350,14 @@
     },
     "PH-209": {
       "name": "Bongabong",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "bongabong.gov.ph",
-      "confidence": 15,
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-210": {
@@ -655195,13 +655201,14 @@
     },
     "PL-0251": {
       "name": "Kalisz",
-      "provider": "unknown",
-      "domain": "kalisz.pl",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "schronisko.kalisz.pl",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PL-0252": {
@@ -710667,13 +710674,13 @@
     },
     "VE-286": {
       "name": "Municipio Sucre",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "alcaldiamunicipiosucre.gov.ve",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "VE-287": {
@@ -711309,13 +711316,13 @@
     },
     "VE-342": {
       "name": "Sucre",
-      "provider": "unknown",
-      "domain": "alcaldiamunicipiosucre.gov.ve",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "VE-343": {
@@ -712008,13 +712015,13 @@
     },
     "XK-004": {
       "name": "Elez Han Municipality",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "haniielezit.rks-gov.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "XK-005": {
@@ -712110,15 +712117,13 @@
     },
     "XK-013": {
       "name": "Kaçanik Municipality",
-      "provider": "microsoft",
-      "domain": "rks-gov.net",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "kacanik.rks-gov.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "XK-014": {
@@ -712921,13 +712926,13 @@
     },
     "ZA-022": {
       "name": "Dikgatlong Local Municipality",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "dikgatlong.gov.za",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ZA-023": {
@@ -713643,13 +713648,12 @@
     },
     "ZA-084": {
       "name": "Magareng Local Municipality",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "magareng.gov.za",
-      "confidence": 15,
+      "confidence": 85,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ZA-085": {
@@ -713987,13 +713991,13 @@
     },
     "ZA-113": {
       "name": "Mohokare Local Municipality",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "mohokare.gov.za",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ZA-114": {
@@ -714590,13 +714594,13 @@
     },
     "ZA-165": {
       "name": "Siyathemba Local Municipality",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "siyathemba.gov.za",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ZA-166": {
@@ -714739,13 +714743,13 @@
     },
     "ZA-178": {
       "name": "Tokologo Local Municipality",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "tokologo.gov.za",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ZA-179": {
