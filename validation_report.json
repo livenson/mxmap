@@ -55457,13 +55457,14 @@
     },
     "AU-321": {
       "name": "Port Lincoln",
-      "provider": "unknown",
-      "domain": "portlincoln.sa.gov.au",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "plcc.sa.gov.au",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AU-322": {
@@ -102044,13 +102045,13 @@
     },
     "BR-2571": {
       "name": "João Câmara",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "joaocamara.rn.gov.br",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-2572": {
@@ -458401,13 +458402,14 @@
     },
     "ES-7401": {
       "name": "Valley of Egüés",
-      "provider": "unknown",
-      "domain": "valledeegues.com",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "egues.es",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-7402": {
@@ -492196,14 +492198,13 @@
     },
     "GR-058": {
       "name": "Chalkideon",
-      "provider": "microsoft",
-      "domain": "culture.gr",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "dimoschalkideon.gr",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "GR-059": {
@@ -524267,8 +524268,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "KE-031": {
@@ -527339,13 +527339,13 @@
     },
     "KR-074": {
       "name": "Gyeryong",
-      "provider": "unknown",
-      "domain": "gyeryong.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-075": {
@@ -527632,10 +527632,11 @@
     "KR-101": {
       "name": "Jeungpyeong County",
       "provider": "independent",
-      "domain": "korea.kr",
-      "confidence": 90,
+      "domain": "daum.net",
+      "confidence": 93,
       "flags": [
-        "spf_strict",
+        "multiple_mx",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -551696,13 +551697,13 @@
     },
     "MK-005": {
       "name": "Bogdanci Municipality",
-      "provider": "unknown",
+      "provider": "local-isp",
       "domain": "bogdanci.gov.mk",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "MK-006": {
@@ -554284,13 +554285,13 @@
     },
     "MT-21": {
       "name": "Kerċem",
-      "provider": "unknown",
-      "domain": "kercemlc.gov.mt",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "gov.mt",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "MT-22": {
@@ -556909,14 +556910,12 @@
     },
     "MX-1021": {
       "name": "Mina Municipality",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "google",
+      "domain": "mina.mx",
+      "confidence": 70,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "provider_classified"
       ]
     },
     "MX-1022": {
@@ -581349,13 +581348,13 @@
     },
     "MX-758": {
       "name": "Ixhuatlán de Madero",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "ixhuatlandemadero.gob.mx",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "MX-759": {
@@ -636723,14 +636722,13 @@
     },
     "PH-1015": {
       "name": "Pinabacdao",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "google",
+      "domain": "pinabacdao.gov.ph",
+      "confidence": 88,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1016": {
@@ -641123,13 +641121,13 @@
     },
     "PH-1363": {
       "name": "Talacogon",
-      "provider": "unknown",
-      "domain": "talacogon.gov.ph",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "yahoo.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1364": {
@@ -649906,13 +649904,13 @@
     },
     "PH-784": {
       "name": "Malimono",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "malimono.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-785": {
@@ -706011,13 +706009,13 @@
     },
     "UG-048": {
       "name": "Kampala District",
-      "provider": "unknown",
-      "domain": "kcc.go.ug",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "kampala.ug",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "UG-049": {
@@ -710674,13 +710672,13 @@
     },
     "VE-286": {
       "name": "Municipio Sucre",
-      "provider": "unknown",
-      "domain": "alcaldiamunicipiosucre.gov.ve",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "VE-287": {
@@ -712117,13 +712115,15 @@
     },
     "XK-013": {
       "name": "Kaçanik Municipality",
-      "provider": "unknown",
-      "domain": "kacanik.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-014": {
