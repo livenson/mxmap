@@ -1,7 +1,7 @@
 {
   "total": 61641,
   "average_score": 82.8,
-  "high_confidence_pct": 83.3,
+  "high_confidence_pct": 83.4,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -171245,13 +171245,14 @@
     },
     "CA-279": {
       "name": "Boischatel",
-      "provider": "unknown",
-      "domain": "boischatel.ca",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "boischatel.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "CA-2790": {
@@ -375726,9 +375727,10 @@
       "name": "Tallinn",
       "provider": "microsoft",
       "domain": "tallinn.ee",
-      "confidence": 75,
+      "confidence": 95,
       "flags": [
         "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -402723,13 +402725,14 @@
     },
     "ES-3000": {
       "name": "Fuentes de Magaña",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "fuentesdemagana.com",
-      "confidence": 15,
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-3001": {
@@ -450880,13 +450883,14 @@
     },
     "ES-6810": {
       "name": "Taroda",
-      "provider": "unknown",
+      "provider": "microsoft",
       "domain": "taroda.es",
-      "confidence": 15,
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-6811": {
@@ -460769,13 +460773,13 @@
     },
     "ES-7589": {
       "name": "Vilar de Santos",
-      "provider": "unknown",
+      "provider": "local-isp",
       "domain": "vilardesantos.gal",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-759": {
@@ -526636,13 +526640,13 @@
     },
     "KR-010": {
       "name": "Buk District",
-      "provider": "independent",
-      "domain": "korea.kr",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "buk.daegu.kr",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-011": {
@@ -576007,10 +576011,10 @@
       "name": "Centla",
       "provider": "independent",
       "domain": "centla.gob.mx",
-      "confidence": 78,
+      "confidence": 88,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -577816,14 +577820,12 @@
     },
     "MX-453": {
       "name": "Cotaxtla Municipality",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "cotaxtla.gob.mx",
+      "confidence": 50,
       "flags": [
-        "no_domain",
-        "no_mx",
         "no_spf",
-        "provider_unknown"
+        "provider_classified"
       ]
     },
     "MX-454": {
@@ -578103,13 +578105,13 @@
     },
     "MX-478": {
       "name": "Cuautempan Municipality",
-      "provider": "unknown",
-      "domain": "cuautempan.puebla.gob.mx",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "cuautempan.gob.mx",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "MX-479": {
@@ -580950,10 +580952,10 @@
       "name": "Huimanguillo",
       "provider": "independent",
       "domain": "huimanguillo.gob.mx",
-      "confidence": 78,
+      "confidence": 88,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -616689,14 +616691,13 @@
     },
     "PE-1269": {
       "name": "Puquio District",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "google",
+      "domain": "puquio.pe",
+      "confidence": 55,
       "flags": [
-        "no_domain",
-        "no_mx",
+        "multiple_mx",
         "no_spf",
-        "provider_unknown"
+        "provider_classified"
       ]
     },
     "PE-127": {
@@ -642418,11 +642419,13 @@
     },
     "PH-1468": {
       "name": "Victoria",
-      "provider": "google",
-      "domain": "victoria.ph",
-      "confidence": 50,
+      "provider": "independent",
+      "domain": "victoriatarlac.gov.ph",
+      "confidence": 93,
       "flags": [
-        "no_spf",
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -664683,13 +664686,15 @@
     },
     "RS-036": {
       "name": "Ferizaj Municipality",
-      "provider": "unknown",
-      "domain": "ferizaj.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "RS-038": {
@@ -682280,13 +682285,13 @@
     },
     "SI-170": {
       "name": "Mirna Peč",
-      "provider": "unknown",
-      "domain": "mirnapec.si",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "siol.net",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "SI-171": {
@@ -711307,13 +711312,13 @@
     },
     "VE-342": {
       "name": "Sucre",
-      "provider": "unknown",
-      "domain": "alcaldiamunicipiosucre.gov.ve",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "VE-343": {
@@ -711984,15 +711989,13 @@
     },
     "XK-002": {
       "name": "Dragash Municipality",
-      "provider": "microsoft",
-      "domain": "rks-gov.net",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "dragash.rks-gov.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "XK-003": {
