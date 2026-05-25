@@ -1,7 +1,7 @@
 {
   "total": 61641,
   "average_score": 82.8,
-  "high_confidence_pct": 83.4,
+  "high_confidence_pct": 83.3,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -55215,9 +55215,9 @@
       "name": "Nambucca Valley Council",
       "provider": "microsoft",
       "domain": "nambucca.nsw.gov.au",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -55513,13 +55513,14 @@
       "name": "Port Stephens Council",
       "provider": "microsoft",
       "domain": "portstephens.nsw.gov.au",
-      "confidence": 83,
+      "confidence": 88,
       "flags": [
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "multi_provider_spf:aws+microsoft",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AU-325": {
@@ -65327,10 +65328,9 @@
       "name": "Ledegem",
       "provider": "microsoft",
       "domain": "ledegem.be",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -108905,13 +108905,13 @@
     },
     "BR-3122": {
       "name": "Montes Claros",
-      "provider": "unknown",
-      "domain": "portal.montesclaros.mg.gov.br",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "montesclaros.mg.gov.br",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3123": {
@@ -151627,13 +151627,14 @@
     },
     "CA-1296": {
       "name": "Island Lake South",
-      "provider": "unknown",
-      "domain": "myislandlakesouth.com",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "hotmail.com",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "CA-1297": {
@@ -372668,8 +372669,9 @@
       "name": "Balzar Canton",
       "provider": "local-isp",
       "domain": "gadmbalzar.gob.ec",
-      "confidence": 88,
+      "confidence": 93,
       "flags": [
+        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -372677,11 +372679,12 @@
     },
     "EC-017": {
       "name": "Baños Canton",
-      "provider": "independent",
+      "provider": "google",
       "domain": "municipiobanos.gob.ec",
-      "confidence": 50,
+      "confidence": 88,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -377152,14 +377155,14 @@
     },
     "ES-081": {
       "name": "Adradas",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "microsoft",
+      "domain": "adradas.es",
+      "confidence": 95,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-082": {
@@ -443684,13 +443687,13 @@
     },
     "ES-6246": {
       "name": "Sanet y Negrals",
-      "provider": "independent",
-      "domain": "sanetynegrals.org",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "sanetynegrals.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6247": {
@@ -469104,14 +469107,14 @@
     },
     "ES-8249": {
       "name": "Sayar",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "sayar.es",
+      "confidence": 93,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-825": {
@@ -496678,12 +496681,12 @@
     },
     "GT-119": {
       "name": "Morales",
-      "provider": "google",
+      "provider": "independent",
       "domain": "elmoralense.com",
-      "confidence": 73,
+      "confidence": 88,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -513029,13 +513032,13 @@
     },
     "ID-084": {
       "name": "Central Bengkulu",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "bengkulutengahkab.go.id",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ID-085": {
@@ -515860,8 +515863,9 @@
       "name": "Pelalawan",
       "provider": "independent",
       "domain": "pelalawankab.go.id",
-      "confidence": 88,
+      "confidence": 93,
       "flags": [
+        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -516434,9 +516438,10 @@
       "name": "Seruyan",
       "provider": "independent",
       "domain": "seruyankab.go.id",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -517483,11 +517488,11 @@
       "name": "Temanggung",
       "provider": "independent",
       "domain": "temanggungkab.go.id",
-      "confidence": 93,
+      "confidence": 85,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -521317,13 +521322,13 @@
     },
     "IT-029": {
       "name": "Padova",
-      "provider": "independent",
-      "domain": "pec.provincia.padova.it",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "provincia.pd.it",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "IT-030": {
@@ -527683,13 +527688,13 @@
     },
     "KR-110": {
       "name": "Mokpo",
-      "provider": "independent",
-      "domain": "mokpo.go.kr",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "eng.mokpo.go.kr",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-111": {
@@ -533935,15 +533940,14 @@
     },
     "LY-004": {
       "name": "Ajdabiya",
-      "provider": "independent",
-      "domain": "ajdabiya.ly",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "",
+      "confidence": 0,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_domain",
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "LY-005": {
@@ -588926,13 +588930,12 @@
     },
     "NG-012": {
       "name": "Abua/Odual",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -589126,25 +589129,23 @@
     },
     "NG-029": {
       "name": "Ahoada East",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
     "NG-030": {
       "name": "Ahoada West",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -589308,13 +589309,12 @@
     },
     "NG-045": {
       "name": "Akuku-Toru",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -589448,13 +589448,12 @@
     },
     "NG-057": {
       "name": "Andoni",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -589609,13 +589608,12 @@
     },
     "NG-071": {
       "name": "Asari-Toru",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -590238,13 +590236,12 @@
     },
     "NG-126": {
       "name": "Bonny",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -590640,13 +590637,12 @@
     },
     "NG-161": {
       "name": "Degema",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -590997,25 +590993,23 @@
     },
     "NG-192": {
       "name": "Eleme",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
     "NG-193": {
       "name": "Emohua",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -591158,13 +591152,12 @@
     },
     "NG-206": {
       "name": "Etche",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -591669,13 +591662,12 @@
     },
     "NG-251": {
       "name": "Gokana",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -592757,13 +592749,12 @@
     },
     "NG-346": {
       "name": "Ikwerre",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -593845,13 +593836,12 @@
     },
     "NG-442": {
       "name": "Khana",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -595297,13 +595287,12 @@
     },
     "NG-568": {
       "name": "Obia/Akpor",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -595477,13 +595466,12 @@
     },
     "NG-584": {
       "name": "Ogba/Egbema/Ndoni",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -595585,13 +595573,12 @@
     },
     "NG-593": {
       "name": "Ogu/Bolo",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -595839,13 +595826,12 @@
     },
     "NG-615": {
       "name": "Okrika",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -595919,13 +595905,12 @@
     },
     "NG-622": {
       "name": "Omuma",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -596023,13 +596008,12 @@
     },
     "NG-631": {
       "name": "Opobo/Nkoro",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -596401,13 +596385,12 @@
     },
     "NG-664": {
       "name": "Oyigbo",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -596505,13 +596488,12 @@
     },
     "NG-673": {
       "name": "Port Harcourt",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -597097,13 +597079,12 @@
     },
     "NG-724": {
       "name": "Tai",
-      "provider": "independent",
+      "provider": "aws",
       "domain": "riversstate.gov.ng",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -654335,10 +654316,10 @@
       "name": "Powiat Leski",
       "provider": "local-isp",
       "domain": "powiat-leski.pl",
-      "confidence": 88,
+      "confidence": 78,
       "flags": [
         "spf_softfail",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -712000,13 +711981,15 @@
     },
     "XK-005": {
       "name": "Ferizaj Municipality",
-      "provider": "unknown",
-      "domain": "ferizaj.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-006": {
