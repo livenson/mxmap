@@ -10862,13 +10862,14 @@
     },
     "AR-1114": {
       "name": "Salsacate",
-      "provider": "unknown",
+      "provider": "microsoft",
       "domain": "salsacate.gob.ar",
-      "confidence": 15,
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AR-1115": {
@@ -56082,9 +56083,9 @@
       "name": "Shire of Brookton",
       "provider": "microsoft",
       "domain": "brookton.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -56119,9 +56120,9 @@
       "name": "Shire of Bruce Rock",
       "provider": "microsoft",
       "domain": "brucerock.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -56516,9 +56517,9 @@
       "name": "Shire of Corrigin",
       "provider": "microsoft",
       "domain": "corrigin.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -56564,9 +56565,9 @@
       "name": "Shire of Cuballing",
       "provider": "microsoft",
       "domain": "cuballing.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -56588,9 +56589,9 @@
       "name": "Shire of Cunderdin",
       "provider": "microsoft",
       "domain": "cunderdin.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -56720,9 +56721,9 @@
       "name": "Shire of Dowerin",
       "provider": "microsoft",
       "domain": "dowerin.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -56743,9 +56744,9 @@
       "name": "Shire of Dumbleyung",
       "provider": "microsoft",
       "domain": "dumbleyung.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -57351,9 +57352,9 @@
       "name": "Shire of Koorda",
       "provider": "microsoft",
       "domain": "koorda.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -57387,9 +57388,9 @@
       "name": "Shire of Lake Grace",
       "provider": "microsoft",
       "domain": "lakegrace.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -57780,9 +57781,9 @@
       "name": "Shire of Mukinbudin",
       "provider": "microsoft",
       "domain": "mukinbudin.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -57801,7 +57802,7 @@
     },
     "AU-512": {
       "name": "Shire of Mundaring",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "mundaring.wa.gov.au",
       "confidence": 80,
       "flags": [
@@ -58032,9 +58033,9 @@
       "name": "Shire of Northern Grampians",
       "provider": "microsoft",
       "domain": "ngshire.vic.gov.au",
-      "confidence": 83,
+      "confidence": 85,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "multi_provider_spf:aws+mailchimp+microsoft",
         "provider_classified",
@@ -58190,9 +58191,9 @@
       "name": "Shire of Quairading",
       "provider": "microsoft",
       "domain": "quairading.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -58298,9 +58299,9 @@
       "name": "Shire of Sandstone",
       "provider": "microsoft",
       "domain": "sandstone.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -58566,9 +58567,9 @@
       "name": "Shire of Trayning",
       "provider": "microsoft",
       "domain": "trayning.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -58589,9 +58590,9 @@
       "name": "Shire of Victoria Plains",
       "provider": "microsoft",
       "domain": "victoriaplains.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -58612,9 +58613,9 @@
       "name": "Shire of Wagin",
       "provider": "microsoft",
       "domain": "wagin.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -58772,9 +58773,9 @@
       "name": "Shire of Williams",
       "provider": "microsoft",
       "domain": "williams.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -58808,9 +58809,9 @@
       "name": "Shire of Wongan-Ballidu",
       "provider": "microsoft",
       "domain": "wongan.wa.gov.au",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -66339,7 +66340,7 @@
     },
     "BE-52011": {
       "name": "Charleroi",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "charleroi.be",
       "confidence": 83,
       "flags": [
@@ -66820,7 +66821,7 @@
     },
     "BE-56088": {
       "name": "Sivry-Rance",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sivry-rance.be",
       "confidence": 90,
       "flags": [
@@ -67093,7 +67094,7 @@
     },
     "BE-61031": {
       "name": "Hoei",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "huy.be",
       "confidence": 90,
       "flags": [
@@ -67104,7 +67105,7 @@
     },
     "BE-61039": {
       "name": "Marchin",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "marchin.be",
       "confidence": 90,
       "flags": [
@@ -67141,7 +67142,7 @@
     },
     "BE-61048": {
       "name": "Ouffet",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ouffet.be",
       "confidence": 90,
       "flags": [
@@ -67176,7 +67177,7 @@
     },
     "BE-61072": {
       "name": "Wanze",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "wanze.be",
       "confidence": 88,
       "flags": [
@@ -67259,7 +67260,7 @@
     },
     "BE-62011": {
       "name": "Bitsingen",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "bassenge.be",
       "confidence": 90,
       "flags": [
@@ -67270,7 +67271,7 @@
     },
     "BE-62015": {
       "name": "Beyne-Heusay",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "beyne-heusay.be",
       "confidence": 95,
       "flags": [
@@ -67282,7 +67283,7 @@
     },
     "BE-62022": {
       "name": "Chaudfontaine",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "chaudfontaine.be",
       "confidence": 95,
       "flags": [
@@ -67294,7 +67295,7 @@
     },
     "BE-62026": {
       "name": "Comblain-au-Pont",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "comblainaupont.be",
       "confidence": 90,
       "flags": [
@@ -67352,7 +67353,7 @@
     },
     "BE-62060": {
       "name": "Juprelle",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "juprelle.be",
       "confidence": 90,
       "flags": [
@@ -67387,7 +67388,7 @@
     },
     "BE-62093": {
       "name": "Montegnée",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "saint-nicolas.be",
       "confidence": 90,
       "flags": [
@@ -67398,7 +67399,7 @@
     },
     "BE-62096": {
       "name": "Seraing",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "seraing.be",
       "confidence": 78,
       "flags": [
@@ -67471,7 +67472,7 @@
     },
     "BE-62120": {
       "name": "Flémalle",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "flemalle.be",
       "confidence": 88,
       "flags": [
@@ -67568,7 +67569,7 @@
     },
     "BE-63020": {
       "name": "Dison",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dison.be",
       "confidence": 90,
       "flags": [
@@ -67675,7 +67676,7 @@
     },
     "BE-63057": {
       "name": "Olne",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "olne.be",
       "confidence": 90,
       "flags": [
@@ -68011,7 +68012,7 @@
     },
     "BE-64076": {
       "name": "Faimes",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "faimes.be",
       "confidence": 90,
       "flags": [
@@ -68544,7 +68545,7 @@
     },
     "BE-82003": {
       "name": "Bastenaken",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "bastogne.be",
       "confidence": 90,
       "flags": [
@@ -68567,7 +68568,7 @@
     },
     "BE-82014": {
       "name": "Houffalize",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "houffalize.be",
       "confidence": 88,
       "flags": [
@@ -68753,7 +68754,7 @@
     },
     "BE-84016": {
       "name": "Daverdisse",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "daverdisse.be",
       "confidence": 88,
       "flags": [
@@ -68764,7 +68765,7 @@
     },
     "BE-84029": {
       "name": "Herbeumont",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "herbeumont.be",
       "confidence": 90,
       "flags": [
@@ -68775,14 +68776,13 @@
     },
     "BE-84033": {
       "name": "Léglise",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "communeleglise.be",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "BE-84035": {
@@ -68847,7 +68847,7 @@
     },
     "BE-84075": {
       "name": "Wellin",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "wellin.be",
       "confidence": 93,
       "flags": [
@@ -69027,7 +69027,7 @@
     },
     "BE-91030": {
       "name": "Ciney",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ciney.be",
       "confidence": 90,
       "flags": [
@@ -69305,7 +69305,7 @@
     },
     "BE-92137": {
       "name": "Sambreville",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sambreville.be",
       "confidence": 80,
       "flags": [
@@ -69365,7 +69365,7 @@
     },
     "BE-93010": {
       "name": "Cerfontaine",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cerfontaine.be",
       "confidence": 88,
       "flags": [
@@ -69399,7 +69399,7 @@
     },
     "BE-93022": {
       "name": "Florennes",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "florennes.be",
       "confidence": 88,
       "flags": [
@@ -76039,13 +76039,14 @@
     },
     "BJ-024": {
       "name": "Cotonou",
-      "provider": "unknown",
-      "domain": "cotonou.mairie.bj",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "mairie.bj",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BJ-025": {
@@ -84875,14 +84876,13 @@
     },
     "BR-1204": {
       "name": "Chapadão do Lageado",
-      "provider": "independent",
-      "domain": "chapadaodolageado.sc.gov.br",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "chapadaodolageado.atende.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BR-1205": {
@@ -134759,9 +134759,9 @@
       "name": "Tocantinópolis",
       "provider": "independent",
       "domain": "tocantinopolis.com.br",
-      "confidence": 90,
+      "confidence": 88,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -145212,13 +145212,14 @@
     },
     "BY-010": {
       "name": "Bierastavica District",
-      "provider": "unknown",
-      "domain": "berestovitsa.grodno-region.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "berestovitsa.gov.by",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-011": {
@@ -145360,13 +145361,13 @@
     },
     "BY-023": {
       "name": "Drahičyn District",
-      "provider": "unknown",
-      "domain": "drogichin.brest-region.gov.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "brest.by",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-024": {
@@ -145499,13 +145500,13 @@
     },
     "BY-035": {
       "name": "Ivacevičy District",
-      "provider": "unknown",
-      "domain": "ivacevichi.brest-region.gov.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "brest.by",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-036": {
@@ -145827,13 +145828,14 @@
     },
     "BY-063": {
       "name": "Mahilow District",
-      "provider": "unknown",
-      "domain": "mogilev-rik.gov.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "mogrik.gov.by",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-064": {
@@ -146026,13 +146028,13 @@
     },
     "BY-080": {
       "name": "Pružany District",
-      "provider": "unknown",
-      "domain": "pruzhany.brest-region.gov.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "brest.by",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-081": {
@@ -146180,13 +146182,13 @@
     },
     "BY-093": {
       "name": "Stolin district",
-      "provider": "unknown",
-      "domain": "stolin.brest-region.gov.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "brest.by",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-094": {
@@ -161864,14 +161866,13 @@
     },
     "CA-2075": {
       "name": "Norquay",
-      "provider": "independent",
-      "domain": "sasktel.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "norquay.ca",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-2076": {
@@ -162029,14 +162030,13 @@
     },
     "CA-2088": {
       "name": "North Frontenac",
-      "provider": "microsoft",
-      "domain": "northfrontenac.ca",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "northfrontenac.com",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-2089": {
@@ -164649,15 +164649,13 @@
     },
     "CA-2288": {
       "name": "Plaisance",
-      "provider": "microsoft",
-      "domain": "mrc-papineau.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "ville.plaisance.qc.ca",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-2289": {
@@ -165626,13 +165624,13 @@
     },
     "CA-2362": {
       "name": "Portage-du-Fort",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "portage-du-fort.com",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-2363": {
@@ -171188,14 +171186,13 @@
     },
     "CA-279": {
       "name": "Boischatel",
-      "provider": "microsoft",
-      "domain": "boischatel.net",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "boischatel.ca",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-2790": {
@@ -177190,13 +177187,13 @@
     },
     "CA-3250": {
       "name": "South Baptiste",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "southbaptiste.com",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-3251": {
@@ -222001,7 +221998,7 @@
     },
     "CY-08": {
       "name": "Polemidia",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "polemidiamunicipal.com.cy",
       "confidence": 55,
       "flags": [
@@ -222155,7 +222152,7 @@
     },
     "CZ-500496": {
       "name": "Olomouc",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "olomouc.eu",
       "confidence": 93,
       "flags": [
@@ -222265,7 +222262,7 @@
     },
     "CZ-513750": {
       "name": "Hranice",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "mesto-hranice.cz",
       "confidence": 88,
       "flags": [
@@ -222276,7 +222273,7 @@
     },
     "CZ-514705": {
       "name": "Lipník nad Bečvou",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "mesto-lipnik.cz",
       "confidence": 88,
       "flags": [
@@ -222526,15 +222523,14 @@
     },
     "CZ-538094": {
       "name": "Brandýs nad Labem-Stará Boleslav",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "brandysko.cz",
       "confidence": 95,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CZ-538728": {
@@ -222663,7 +222659,7 @@
     },
     "CZ-545058": {
       "name": "Valašské Meziříčí",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "valasskemezirici.cz",
       "confidence": 55,
       "flags": [
@@ -223528,15 +223524,14 @@
     },
     "CZ-571393": {
       "name": "Hlinsko",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "hlinsko.cz",
       "confidence": 95,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CZ-572659": {
@@ -223939,7 +223934,7 @@
     },
     "CZ-583952": {
       "name": "Šlapanice",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "slapanice.cz",
       "confidence": 88,
       "flags": [
@@ -224031,7 +224026,7 @@
     },
     "CZ-585459": {
       "name": "Luhačovice",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "luhacovice.eu",
       "confidence": 88,
       "flags": [
@@ -224234,7 +224229,7 @@
     },
     "CZ-592731": {
       "name": "Uherský Brod",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ub.cz",
       "confidence": 85,
       "flags": [
@@ -224291,7 +224286,7 @@
     },
     "CZ-594482": {
       "name": "Moravský Krumlov",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "mkrumlov.cz",
       "confidence": 88,
       "flags": [
@@ -481750,7 +481745,7 @@
     },
     "GB-E06000032": {
       "name": "Luton",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "luton.gov.uk",
       "confidence": 83,
       "flags": [
@@ -481919,7 +481914,7 @@
     },
     "GB-E06000046": {
       "name": "Isle of Wight",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "isle-of-wight.uk",
       "confidence": 88,
       "flags": [
@@ -483066,15 +483061,14 @@
     },
     "GB-E07000115": {
       "name": "Tonbridge and Malling",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tmbc.gov.uk",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
-        "provider_classified",
-        "autodiscover_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GB-E07000116": {
@@ -483881,14 +483875,15 @@
     },
     "GB-E07000223": {
       "name": "Adur",
-      "provider": "google",
+      "provider": "microsoft",
       "domain": "adur-worthing.gov.uk",
-      "confidence": 93,
+      "confidence": 83,
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "GB-E07000224": {
@@ -483958,14 +483953,15 @@
     },
     "GB-E07000229": {
       "name": "Worthing",
-      "provider": "google",
+      "provider": "microsoft",
       "domain": "adur-worthing.gov.uk",
-      "confidence": 93,
+      "confidence": 83,
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "GB-E07000234": {
@@ -485820,14 +485816,13 @@
     },
     "GE-001": {
       "name": "Abasha Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "abasha.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-002": {
@@ -485843,7 +485838,7 @@
     },
     "GE-003": {
       "name": "Akhalgori Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "akhalgori.org.ge",
       "confidence": 50,
       "flags": [
@@ -485853,7 +485848,7 @@
     },
     "GE-004": {
       "name": "Akhalkalaki Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "akhalkalaki.gov.ge",
       "confidence": 88,
       "flags": [
@@ -485864,20 +485859,19 @@
     },
     "GE-005": {
       "name": "Akhaltsikhe Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "akhaltsikhe.gov.ge",
       "confidence": 95,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-006": {
       "name": "Akhmeta municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "akhmeta.ge",
       "confidence": 50,
       "flags": [
@@ -485887,19 +485881,18 @@
     },
     "GE-007": {
       "name": "Ambrolauri Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ambrolauri.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-008": {
       "name": "Aspindza Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "aspindza.ge",
       "confidence": 88,
       "flags": [
@@ -485910,26 +485903,24 @@
     },
     "GE-009": {
       "name": "Baghdati Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "baghdati.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-010": {
       "name": "Bolnisi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "bolnisi.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-011": {
@@ -485945,74 +485936,68 @@
     },
     "GE-012": {
       "name": "Chiatura Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "chiatura.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-013": {
       "name": "Chkhorotsqu Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "chkhorotsku.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-014": {
       "name": "Chokhatauri Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "chokhatauri.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-015": {
       "name": "Dedoplis Tsqaro Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dedoplistskaro.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-016": {
       "name": "Dmanisi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dmanisi.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-017": {
       "name": "Dusheti Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dusheti.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-018": {
@@ -486041,26 +486026,24 @@
     },
     "GE-020": {
       "name": "Gardabani Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "gardabani.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-021": {
       "name": "Gori Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "gori.gov.ge",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-022": {
@@ -486089,14 +486072,13 @@
     },
     "GE-024": {
       "name": "Gurjaani Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "gurjaani.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-025": {
@@ -486124,31 +486106,29 @@
     },
     "GE-027": {
       "name": "Kaspi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kaspi.gov.ge",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-028": {
       "name": "Kazbegi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kazbegi.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-029": {
       "name": "Keda Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "keda.gov.ge",
       "confidence": 88,
       "flags": [
@@ -486159,26 +486139,24 @@
     },
     "GE-030": {
       "name": "Kharagauli Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kharagauli.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-031": {
       "name": "Khashuri Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "khashuri.gov.ge",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-032": {
@@ -486205,14 +486183,13 @@
     },
     "GE-034": {
       "name": "Khoni Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "khoni.gov.ge",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-035": {
@@ -486228,7 +486205,7 @@
     },
     "GE-036": {
       "name": "Kobuleti Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kobuleti.gov.ge",
       "confidence": 50,
       "flags": [
@@ -486260,7 +486237,7 @@
     },
     "GE-039": {
       "name": "Lentekhi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "lentekhi.gov.ge",
       "confidence": 88,
       "flags": [
@@ -486271,13 +486248,12 @@
     },
     "GE-040": {
       "name": "Marneuli Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "marneuli.gov.ge",
       "confidence": 50,
       "flags": [
         "no_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-041": {
@@ -486294,7 +486270,7 @@
     },
     "GE-042": {
       "name": "Mestia Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "mestia.gov.ge",
       "confidence": 88,
       "flags": [
@@ -486305,19 +486281,18 @@
     },
     "GE-043": {
       "name": "Mtskheta Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "mtskheta.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-044": {
       "name": "Ninotsminda Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ninotsminda.gov.ge",
       "confidence": 88,
       "flags": [
@@ -486340,14 +486315,13 @@
     },
     "GE-046": {
       "name": "Oni Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "oni.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-047": {
@@ -486362,37 +486336,34 @@
     },
     "GE-048": {
       "name": "Sachkhere Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sachkhere.gov.ge",
       "confidence": 50,
       "flags": [
         "no_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-049": {
       "name": "Sagarejo Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sagarejo.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-050": {
       "name": "Samtredia Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "samtredia.gov.ge",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-051": {
@@ -486418,13 +486389,12 @@
     },
     "GE-053": {
       "name": "Signagi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "signagi.gov.ge",
       "confidence": 50,
       "flags": [
         "no_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-054": {
@@ -486440,98 +486410,90 @@
     },
     "GE-055": {
       "name": "Telavi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "telavi.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-056": {
       "name": "Terjola Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "terjola.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-057": {
       "name": "Tetri Tsqaro Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tetritskaro.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-058": {
       "name": "Tianeti Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tianeti.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-059": {
       "name": "Tkibuli Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tkibuli.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-060": {
       "name": "Tsageri Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tsageri.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-061": {
       "name": "Tsalenjikha Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tsalenjikha.gov.ge",
-      "confidence": 90,
+      "confidence": 88,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-062": {
       "name": "Tsalka Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tsalka.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-063": {
@@ -486547,51 +486509,47 @@
     },
     "GE-064": {
       "name": "Tsqaltubo Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "tskaltubo.gov.ge",
       "confidence": 95,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-065": {
       "name": "Vani Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "vani.gov.ge",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-066": {
       "name": "Zestaponi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "zestafoni.gov.ge",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GE-067": {
       "name": "Zugdidi Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "zugdidi.gov.ge",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "GH-001": {
@@ -491661,7 +491619,7 @@
     },
     "GR-010": {
       "name": "Agios Efstratios",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "agios-efstratios.gov.gr",
       "confidence": 90,
       "flags": [
@@ -491683,7 +491641,7 @@
     },
     "GR-012": {
       "name": "Agios Vasileios",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "agios-vasilios.gr",
       "confidence": 90,
       "flags": [
@@ -491694,7 +491652,7 @@
     },
     "GR-013": {
       "name": "Agrafa",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "agrafa.gr",
       "confidence": 90,
       "flags": [
@@ -491890,7 +491848,7 @@
     },
     "GR-030": {
       "name": "Amphipolis",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dimos-amfipolis.gr",
       "confidence": 88,
       "flags": [
@@ -492112,7 +492070,7 @@
     },
     "GR-049": {
       "name": "Aspropyrgos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dimosaspropyrgou.gr",
       "confidence": 90,
       "flags": [
@@ -492146,7 +492104,7 @@
     },
     "GR-052": {
       "name": "Avdira",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "avdera.gov.gr",
       "confidence": 50,
       "flags": [
@@ -492353,7 +492311,7 @@
     },
     "GR-070": {
       "name": "Dirfys-Messapia",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ddm.gov.gr",
       "confidence": 88,
       "flags": [
@@ -492399,7 +492357,7 @@
     },
     "GR-074": {
       "name": "Dorida",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dorida.gr",
       "confidence": 90,
       "flags": [
@@ -492513,7 +492471,7 @@
     },
     "GR-084": {
       "name": "Emmanouil Pappas",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "empapas.gr",
       "confidence": 90,
       "flags": [
@@ -492548,7 +492506,7 @@
     },
     "GR-087": {
       "name": "Eretria",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "eretria.gr",
       "confidence": 90,
       "flags": [
@@ -492593,7 +492551,7 @@
     },
     "GR-091": {
       "name": "Faistos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dimosfestou.gr",
       "confidence": 90,
       "flags": [
@@ -492660,7 +492618,7 @@
     },
     "GR-097": {
       "name": "Folegandros",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "folegandros.gov.gr",
       "confidence": 78,
       "flags": [
@@ -492705,7 +492663,7 @@
     },
     "GR-101": {
       "name": "Gavdos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "gavdos.gr",
       "confidence": 88,
       "flags": [
@@ -492716,7 +492674,7 @@
     },
     "GR-102": {
       "name": "Georgios Karaiskakis",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "gkaraiskakis.gr",
       "confidence": 90,
       "flags": [
@@ -492762,7 +492720,7 @@
     },
     "GR-106": {
       "name": "Grevena",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dimosgrevenon.gr",
       "confidence": 90,
       "flags": [
@@ -492831,7 +492789,7 @@
     },
     "GR-112": {
       "name": "Ierapetra",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ierapetra.gov.gr",
       "confidence": 50,
       "flags": [
@@ -492854,12 +492812,10 @@
       "name": "Ikaria",
       "provider": "microsoft",
       "domain": "ikaria.gov.gr",
-      "confidence": 95,
+      "confidence": 68,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "spf_softfail",
+        "provider_classified"
       ]
     },
     "GR-115": {
@@ -492957,7 +492913,7 @@
     },
     "GR-123": {
       "name": "Kaisariani",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kaisariani.gr",
       "confidence": 90,
       "flags": [
@@ -493017,7 +492973,7 @@
     },
     "GR-128": {
       "name": "Kalymnos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kalymnos.gov.gr",
       "confidence": 90,
       "flags": [
@@ -493074,7 +493030,7 @@
     },
     "GR-133": {
       "name": "Karpenisi",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "karpenissi.gr",
       "confidence": 90,
       "flags": [
@@ -493246,7 +493202,7 @@
     },
     "GR-148": {
       "name": "Kithnos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kythnos.gr",
       "confidence": 90,
       "flags": [
@@ -493326,7 +493282,7 @@
     },
     "GR-155": {
       "name": "Kropia",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "koropi.gr",
       "confidence": 88,
       "flags": [
@@ -493488,7 +493444,7 @@
     },
     "GR-169": {
       "name": "Lokroi",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dimos-lokron.gov.gr",
       "confidence": 90,
       "flags": [
@@ -493546,7 +493502,7 @@
     },
     "GR-174": {
       "name": "Mandra-Eidyllia",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "mandras-eidyllias.gr",
       "confidence": 90,
       "flags": [
@@ -493789,7 +493745,7 @@
     },
     "GR-195": {
       "name": "Mylopotamos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dimosmylopotamou.gr",
       "confidence": 93,
       "flags": [
@@ -494598,7 +494554,7 @@
     },
     "GR-265": {
       "name": "Serifos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "serifos.gr",
       "confidence": 90,
       "flags": [
@@ -494656,7 +494612,7 @@
     },
     "GR-270": {
       "name": "Sikinos",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sikinos.gr",
       "confidence": 90,
       "flags": [
@@ -494815,7 +494771,7 @@
     },
     "GR-284": {
       "name": "Southern Pelion",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dnpiliou.gov.gr",
       "confidence": 88,
       "flags": [
@@ -494826,7 +494782,7 @@
     },
     "GR-285": {
       "name": "Sparta",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sparti.gov.gr",
       "confidence": 90,
       "flags": [
@@ -494944,9 +494900,10 @@
       "name": "Thermi",
       "provider": "microsoft",
       "domain": "thermi.gov.gr",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -495294,7 +495251,7 @@
     },
     "GR-326": {
       "name": "Zagora-Mouresi",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dimos-zagoras-mouresiou.gr",
       "confidence": 88,
       "flags": [
@@ -495341,7 +495298,7 @@
     },
     "GR-330": {
       "name": "Ziros",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ziros.gr",
       "confidence": 90,
       "flags": [
@@ -509390,7 +509347,7 @@
     },
     "HR-533": {
       "name": "Velika Gorica",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "gorica.hr",
       "confidence": 88,
       "flags": [
@@ -509481,7 +509438,7 @@
     },
     "HR-541": {
       "name": "Kijevo",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kijevo.hr",
       "confidence": 88,
       "flags": [
@@ -510291,7 +510248,7 @@
     },
     "HU-011": {
       "name": "Bicske District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "bicske.hu",
       "confidence": 88,
       "flags": [
@@ -510359,7 +510316,7 @@
     },
     "HU-017": {
       "name": "Békéscsaba District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "bekescsaba.hu",
       "confidence": 90,
       "flags": [
@@ -510370,7 +510327,7 @@
     },
     "HU-018": {
       "name": "Bélapátfalva District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "belapatfalva.hu",
       "confidence": 88,
       "flags": [
@@ -510392,7 +510349,7 @@
     },
     "HU-020": {
       "name": "Cegléd District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cegled.hu",
       "confidence": 88,
       "flags": [
@@ -520129,7 +520086,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "IR-016": {
@@ -520542,7 +520500,7 @@
     },
     "IS-0021": {
       "name": "Hvalfjarðarsveit",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "hvalfjordur.is",
       "confidence": 55,
       "flags": [
@@ -521044,9 +521002,9 @@
       "name": "Torino",
       "provider": "independent",
       "domain": "cittametropolitana.torino.it",
-      "confidence": 90,
+      "confidence": 88,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -524287,7 +524245,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "KE-031": {
@@ -526824,7 +526783,7 @@
     "KR-025": {
       "name": "Dalseo District",
       "provider": "independent",
-      "domain": "naver.com",
+      "domain": "hanmail.net",
       "confidence": 93,
       "flags": [
         "multiple_mx",
@@ -550204,7 +550163,7 @@
     },
     "MD-016": {
       "name": "Glodeni District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "glodeni.md",
       "confidence": 90,
       "flags": [
@@ -550215,7 +550174,7 @@
     },
     "MD-017": {
       "name": "Hîncești District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "hincesti.md",
       "confidence": 93,
       "flags": [
@@ -550237,7 +550196,7 @@
     },
     "MD-019": {
       "name": "Leova District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "leova.md",
       "confidence": 90,
       "flags": [
@@ -550281,7 +550240,7 @@
     },
     "MD-023": {
       "name": "Rezina District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "rezina.md",
       "confidence": 90,
       "flags": [
@@ -550303,7 +550262,7 @@
     },
     "MD-025": {
       "name": "Soroca District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "soroca.org.md",
       "confidence": 90,
       "flags": [
@@ -550314,7 +550273,7 @@
     },
     "MD-026": {
       "name": "Strășeni District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "crstraseni.md",
       "confidence": 90,
       "flags": [
@@ -550347,7 +550306,7 @@
     },
     "MD-029": {
       "name": "Telenești District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "telenesti.md",
       "confidence": 90,
       "flags": [
@@ -550369,7 +550328,7 @@
     },
     "MD-031": {
       "name": "Șoldănești District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "soldanesti.md",
       "confidence": 90,
       "flags": [
@@ -550591,11 +550550,11 @@
     },
     "ME-019": {
       "name": "Rožaje Municipality",
-      "provider": "local-isp",
-      "domain": "t-com.me",
+      "provider": "google",
+      "domain": "gmail.com",
       "confidence": 90,
       "flags": [
-        "spf_strict",
+        "multiple_mx",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -552121,13 +552080,13 @@
     },
     "MK-042": {
       "name": "Mavrovo i Rostuše Municipality",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "mavrovoirostuse.gov.mk",
-      "confidence": 88,
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "MK-043": {
@@ -552166,7 +552125,7 @@
     },
     "MK-046": {
       "name": "Novo Selo Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "novoselo.gov.mk",
       "confidence": 93,
       "flags": [
@@ -552223,7 +552182,7 @@
     },
     "MK-051": {
       "name": "Plasnica Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "plasnica.gov.mk",
       "confidence": 85,
       "flags": [
@@ -552546,7 +552505,7 @@
     },
     "MK-080": {
       "name": "Čučer-Sandevo Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cucersandevo.gov.mk",
       "confidence": 88,
       "flags": [
@@ -608156,7 +608115,7 @@
     },
     "NO-5601": {
       "name": "Alta",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "alta.kommune.no",
       "confidence": 80,
       "flags": [
@@ -609490,7 +609449,7 @@
     },
     "NZ-003": {
       "name": "Buller District",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "bullerdc.govt.nz",
       "confidence": 88,
       "flags": [
@@ -655636,7 +655595,7 @@
     },
     "PL-0290": {
       "name": "Powiat Goleniowski",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "powiat-goleniowski.pl",
       "confidence": 88,
       "flags": [
@@ -655647,7 +655606,7 @@
     },
     "PL-0291": {
       "name": "Powiat Gryficki",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "gryfice.pl",
       "confidence": 90,
       "flags": [
@@ -655681,7 +655640,7 @@
     },
     "PL-0294": {
       "name": "Powiat Koszaliński",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "powiat.koszalin.pl",
       "confidence": 90,
       "flags": [
@@ -655714,7 +655673,7 @@
     },
     "PL-0297": {
       "name": "Powiat Policki",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "powiat.policki.pl",
       "confidence": 88,
       "flags": [
@@ -655847,7 +655806,7 @@
     },
     "PL-0309": {
       "name": "Powiat Brzeziński",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "brzezinski.pl",
       "confidence": 88,
       "flags": [
@@ -655869,7 +655828,7 @@
     },
     "PL-0311": {
       "name": "Powiat Opoczyński",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "opocznopowiat.pl",
       "confidence": 90,
       "flags": [
@@ -656000,7 +655959,7 @@
     },
     "PL-0323": {
       "name": "Powiat Zduńskowolski",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "powiatzdunskowolski.pl",
       "confidence": 90,
       "flags": [
@@ -656502,7 +656461,7 @@
     },
     "PL-0368": {
       "name": "Powiat Buski",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "powiat.busko.pl",
       "confidence": 95,
       "flags": [
@@ -656569,7 +656528,7 @@
     },
     "PL-0374": {
       "name": "Powiat Ostrowiecki",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "ostrowiec.starostwo.gov.pl",
       "confidence": 90,
       "flags": [
@@ -656602,7 +656561,7 @@
     },
     "PL-0377": {
       "name": "Powiat Skarżyski",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "skarzysko.powiat.pl",
       "confidence": 90,
       "flags": [
@@ -656624,7 +656583,7 @@
     },
     "PL-0379": {
       "name": "Powiat Staszowski",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "staszowski.pl",
       "confidence": 85,
       "flags": [
@@ -656837,17 +656796,18 @@
       "name": "Arouca",
       "provider": "microsoft",
       "domain": "cm-arouca.pt",
-      "confidence": 83,
+      "confidence": 88,
       "flags": [
         "multiple_mx",
         "spf_softfail",
         "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "PT-0004": {
       "name": "Aveiro",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cm-aveiro.pt",
       "confidence": 85,
       "flags": [
@@ -656906,7 +656866,7 @@
     },
     "PT-0009": {
       "name": "Murtosa",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cm-murtosa.pt",
       "confidence": 95,
       "flags": [
@@ -657336,9 +657296,8 @@
       "name": "Cuba",
       "provider": "local-isp",
       "domain": "cm-cuba.pt",
-      "confidence": 93,
+      "confidence": 88,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -657409,9 +657368,10 @@
       "name": "Serpa",
       "provider": "local-isp",
       "domain": "cm-serpa.pt",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "multiple_mx",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -657740,9 +657700,9 @@
       "name": "Belmonte",
       "provider": "microsoft",
       "domain": "cm-belmonte.pt",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -658181,7 +658141,7 @@
     },
     "PT-0116": {
       "name": "Olhão",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cm-olhao.pt",
       "confidence": 90,
       "flags": [
@@ -658412,7 +658372,7 @@
     },
     "PT-0135": {
       "name": "Trancoso",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "cm-trancoso.pt",
       "confidence": 90,
       "flags": [
@@ -665686,7 +665646,7 @@
     },
     "RS-142": {
       "name": "Sombor City",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sombor.rs",
       "confidence": 88,
       "flags": [
@@ -665754,7 +665714,7 @@
     },
     "RS-148": {
       "name": "Stari Grad City Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "starigrad.org.rs",
       "confidence": 93,
       "flags": [
@@ -665858,7 +665818,7 @@
     },
     "RS-158": {
       "name": "Trgovište Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "trgoviste.rs",
       "confidence": 88,
       "flags": [
@@ -665902,7 +665862,7 @@
     },
     "RS-162": {
       "name": "Užice City",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "uzice.rs",
       "confidence": 88,
       "flags": [
@@ -665958,7 +665918,7 @@
     },
     "RS-167": {
       "name": "Veliko Gradište Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "velikogradiste.rs",
       "confidence": 88,
       "flags": [
@@ -666037,7 +665997,7 @@
     },
     "RS-175": {
       "name": "Vračar City Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "vracar.rs",
       "confidence": 88,
       "flags": [
@@ -666059,7 +666019,7 @@
     },
     "RS-177": {
       "name": "Vrnjacka Banja Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "vrnjackabanja.gov.rs",
       "confidence": 88,
       "flags": [
@@ -666070,7 +666030,7 @@
     },
     "RS-178": {
       "name": "Vršac Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "vrsac.com",
       "confidence": 55,
       "flags": [
@@ -666126,7 +666086,7 @@
     },
     "RS-186": {
       "name": "Ćićevac Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cicevac.rs",
       "confidence": 88,
       "flags": [
@@ -666148,7 +666108,7 @@
     },
     "RS-188": {
       "name": "Čajetina Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cajetina.org.rs",
       "confidence": 88,
       "flags": [
@@ -666180,7 +666140,7 @@
     },
     "RS-191": {
       "name": "Čukarica City Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "cukarica.rs",
       "confidence": 78,
       "flags": [
@@ -666202,7 +666162,7 @@
     },
     "RS-193": {
       "name": "Šid Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "opstinasid.org",
       "confidence": 88,
       "flags": [
@@ -666256,7 +666216,7 @@
     },
     "RS-199": {
       "name": "Žitorađa Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "zitoradja.org",
       "confidence": 88,
       "flags": [
@@ -674969,19 +674929,21 @@
     },
     "SE-0163": {
       "name": "Sollentuna",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "sollentuna.se",
-      "confidence": 70,
+      "confidence": 75,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "multi_provider_spf:google+microsoft",
-        "provider_classified"
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "SE-0180": {
       "name": "Stockholm",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "stockholm.se",
       "confidence": 83,
       "flags": [
@@ -675077,7 +675039,7 @@
     },
     "SE-0191": {
       "name": "Sigtuna",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "sigtuna.se",
       "confidence": 85,
       "flags": [
@@ -675179,7 +675141,7 @@
     },
     "SE-0382": {
       "name": "Östhammar",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "osthammar.se",
       "confidence": 80,
       "flags": [
@@ -676427,13 +676389,12 @@
       "name": "Tjörn",
       "provider": "microsoft",
       "domain": "tjorn.se",
-      "confidence": 85,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "autodiscover_confirms"
       ]
     },
     "SE-1421": {
@@ -676844,7 +676805,7 @@
     },
     "SE-1489": {
       "name": "Alingså",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "alingsas.se",
       "confidence": 75,
       "flags": [
@@ -680560,7 +680521,7 @@
     },
     "SI-021": {
       "name": "Dobrova-Polhov Gradec",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dobrova-polhovgradec.si",
       "confidence": 88,
       "flags": [
@@ -680840,14 +680801,13 @@
     },
     "SI-045": {
       "name": "Kidričevo",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "kidricevo.si",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "SI-046": {
@@ -680946,7 +680906,7 @@
     },
     "SI-054": {
       "name": "Krško",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "krsko.si",
       "confidence": 85,
       "flags": [
@@ -680993,19 +680953,18 @@
     },
     "SI-058": {
       "name": "Lenart",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "lenart.si",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "SI-059": {
       "name": "Lendava",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "lendava.si",
       "confidence": 95,
       "flags": [
@@ -681124,14 +681083,13 @@
     },
     "SI-069": {
       "name": "Majšperk",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "majsperk.si",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "SI-070": {
@@ -681172,7 +681130,7 @@
     },
     "SI-073": {
       "name": "Metlika",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "metlika.si",
       "confidence": 90,
       "flags": [
@@ -681231,7 +681189,7 @@
     },
     "SI-078": {
       "name": "Moravske Toplice",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "moravske-toplice.si",
       "confidence": 93,
       "flags": [
@@ -681478,7 +681436,7 @@
     },
     "SI-099": {
       "name": "Radeče",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "radece.si",
       "confidence": 90,
       "flags": [
@@ -681573,7 +681531,7 @@
     },
     "SI-107": {
       "name": "Rogatec",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "rogatec.si",
       "confidence": 90,
       "flags": [
@@ -681664,14 +681622,13 @@
     },
     "SI-115": {
       "name": "Starše",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "starse.si",
       "confidence": 88,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "SI-116": {
@@ -681900,14 +681857,13 @@
     },
     "SI-135": {
       "name": "Videm",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "videm.si",
       "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "SI-136": {
@@ -682147,7 +682103,7 @@
     },
     "SI-157": {
       "name": "Dolenjske Toplice",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dolenjske-toplice.si",
       "confidence": 90,
       "flags": [
@@ -682169,7 +682125,7 @@
     },
     "SI-159": {
       "name": "Hajdina",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "hajdina.si",
       "confidence": 93,
       "flags": [
@@ -682714,7 +682670,7 @@
     },
     "SI-206": {
       "name": "Šmarješke Toplice",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "smarjeske-toplice.si",
       "confidence": 93,
       "flags": [
@@ -711735,7 +711691,8 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "VN-027": {
@@ -712121,15 +712078,13 @@
     },
     "XK-013": {
       "name": "Kaçanik Municipality",
-      "provider": "microsoft",
-      "domain": "rks-gov.net",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "kacanik.rks-gov.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "XK-014": {
@@ -712926,8 +712881,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ZA-022": {
