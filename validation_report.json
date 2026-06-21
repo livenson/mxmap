@@ -1,6 +1,6 @@
 {
   "total": 61641,
-  "average_score": 83.1,
+  "average_score": 83.0,
   "high_confidence_pct": 83.6,
   "quality_passed": true,
   "entries": {
@@ -76048,14 +76048,13 @@
     },
     "BJ-024": {
       "name": "Cotonou",
-      "provider": "microsoft",
-      "domain": "mairie.bj",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "cotonou.mairie.bj",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BJ-025": {
@@ -145262,14 +145261,13 @@
     },
     "BY-010": {
       "name": "Bierastavica District",
-      "provider": "local-isp",
-      "domain": "berestovitsa.gov.by",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "berestovitsa.grodno-region.by",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BY-011": {
@@ -197903,10 +197901,10 @@
       "name": "Constitución",
       "provider": "independent",
       "domain": "constitucion.cl",
-      "confidence": 88,
+      "confidence": 80,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -198281,13 +198279,13 @@
     },
     "CL-101": {
       "name": "Futrono",
-      "provider": "independent",
-      "domain": "futrono.cl",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "municipalidadfutrono.cl",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CL-102": {
@@ -198432,10 +198430,11 @@
       "name": "Huechuraba",
       "provider": "google",
       "domain": "huechuraba.cl",
-      "confidence": 73,
+      "confidence": 95,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -198607,9 +198606,9 @@
       "name": "La Pintana",
       "provider": "microsoft",
       "domain": "pintana.cl",
-      "confidence": 85,
+      "confidence": 83,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "multi_provider_spf:google+microsoft+sendgrid",
         "provider_classified",
@@ -378835,14 +378834,13 @@
     },
     "ES-111": {
       "name": "Agulo",
-      "provider": "microsoft",
-      "domain": "aytoagulo.com",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "eadmin.agulo.org",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1110": {
@@ -386143,11 +386141,11 @@
     },
     "ES-169": {
       "name": "Albaladejo",
-      "provider": "independent",
-      "domain": "albaladejo.org",
-      "confidence": 90,
+      "provider": "local-isp",
+      "domain": "albaladejo.es",
+      "confidence": 88,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -388129,11 +388127,12 @@
     },
     "ES-1846": {
       "name": "Castellote",
-      "provider": "independent",
-      "domain": "castelloteweb.com",
-      "confidence": 90,
+      "provider": "local-isp",
+      "domain": "castellote.es",
+      "confidence": 93,
       "flags": [
-        "spf_strict",
+        "multiple_mx",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -418405,13 +418404,13 @@
     },
     "ES-4234": {
       "name": "Luzaga",
-      "provider": "google",
-      "domain": "atom.com",
-      "confidence": 75,
+      "provider": "unknown",
+      "domain": "luzaga.com",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4235": {
@@ -439579,13 +439578,13 @@
     },
     "ES-5906": {
       "name": "Robledillo de Mohernando",
-      "provider": "unknown",
+      "provider": "local-isp",
       "domain": "robledillodemohernando.com",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5907": {
@@ -465115,14 +465114,13 @@
     },
     "ES-7919": {
       "name": "Villasabariego",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "villasabariegoayto.com",
-      "confidence": 93,
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-792": {
@@ -467837,7 +467835,7 @@
     },
     "ES-8133": {
       "name": "Zegama",
-      "provider": "independent",
+      "provider": "microsoft",
       "domain": "zegama.eus",
       "confidence": 85,
       "flags": [
@@ -492378,14 +492376,13 @@
     },
     "GR-058": {
       "name": "Chalkideon",
-      "provider": "microsoft",
-      "domain": "culture.gr",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "dimoschalkideon.gr",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "GR-059": {
@@ -528778,10 +528775,9 @@
       "name": "Yeongwol County",
       "provider": "independent",
       "domain": "yw.go.kr",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -528820,12 +528816,12 @@
     },
     "KR-194": {
       "name": "Yuseong District",
-      "provider": "independent",
+      "provider": "google",
       "domain": "yuseong.go.kr",
-      "confidence": 88,
+      "confidence": 73,
       "flags": [
+        "multiple_mx",
         "spf_softfail",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -644976,13 +644972,13 @@
     },
     "PH-335": {
       "name": "Cateel",
-      "provider": "unknown",
-      "domain": "cateel.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-336": {
@@ -661059,9 +661055,9 @@
       "name": "Caaguazú District",
       "provider": "independent",
       "domain": "caaguazu.gov.py",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -666588,13 +666584,13 @@
     },
     "RU-013": {
       "name": "Chukotka Autonomous Okrug",
-      "provider": "independent",
-      "domain": "chukotka-gov.ru",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "чукотка.рф",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "RU-014": {
@@ -666653,13 +666649,13 @@
     },
     "RU-019": {
       "name": "Ivanovo Oblast",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "ivanovoobl.ru",
-      "confidence": 88,
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "RU-020": {
@@ -701483,10 +701479,12 @@
     "TW-002": {
       "name": "Chiayi County",
       "provider": "independent",
-      "domain": "cyhg.gov.tw",
-      "confidence": 50,
+      "domain": "chiayi.gov.tw",
+      "confidence": 93,
       "flags": [
-        "no_spf",
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -711510,13 +711508,13 @@
     },
     "VE-342": {
       "name": "Sucre",
-      "provider": "unknown",
-      "domain": "alcaldiamunicipiosucre.gov.ve",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "VE-343": {
@@ -712241,28 +712239,24 @@
     },
     "XK-007": {
       "name": "Gjakova Municipality",
-      "provider": "microsoft",
-      "domain": "rks-gov.net",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "gjakova.rks-gov.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "XK-008": {
       "name": "Gjilan Municipality",
-      "provider": "microsoft",
-      "domain": "rks-gov.net",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "gjilan.rks-gov.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "XK-009": {
