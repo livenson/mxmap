@@ -1,6 +1,6 @@
 {
   "total": 61641,
-  "average_score": 83.1,
+  "average_score": 83.0,
   "high_confidence_pct": 83.7,
   "quality_passed": true,
   "entries": {
@@ -5387,7 +5387,7 @@
     },
     "AL-28": {
       "name": "Bashkia Librazhd",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "bashkialibrazhd.gov.al",
       "confidence": 88,
       "flags": [
@@ -52966,14 +52966,13 @@
     },
     "AU-115": {
       "name": "City of Hervey Bay",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "hervey-bay.com.au",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "AU-116": {
@@ -62753,11 +62752,12 @@
       "name": "Brecht",
       "provider": "microsoft",
       "domain": "brecht.be",
-      "confidence": 78,
+      "confidence": 93,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "BE-11013": {
@@ -63171,13 +63171,14 @@
     },
     "BE-12041": {
       "name": "Puurs-Sint-Amands",
-      "provider": "unknown",
-      "domain": "puurs-sint-amands.be",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "puursam.be",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "BE-13001": {
@@ -63428,9 +63429,9 @@
       "name": "Retie",
       "provider": "microsoft",
       "domain": "retie.be",
-      "confidence": 83,
+      "confidence": 85,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "multi_provider_spf:google+mailgun+microsoft",
         "provider_classified",
@@ -166629,13 +166630,14 @@
     },
     "CA-2434": {
       "name": "Redvers",
-      "provider": "unknown",
-      "domain": "redvers.ca",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "townofredvers.ca",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "CA-2435": {
@@ -176143,13 +176145,13 @@
     },
     "CA-3165": {
       "name": "Seba Beach",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "sebabeach.ca",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "CA-3166": {
@@ -355201,13 +355203,13 @@
     },
     "DZ-1007": {
       "name": "Mostaganem",
-      "provider": "unknown",
-      "domain": "mostaganem.mta.gov.dz",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "mta.gov.dz",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "DZ-1008": {
@@ -372832,13 +372834,14 @@
     },
     "EC-025": {
       "name": "Canton Echeandia",
-      "provider": "unknown",
-      "domain": "echeandia.gob.ec",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "envato.com",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "EC-026": {
@@ -376490,13 +376493,13 @@
     },
     "ES-017": {
       "name": "A Peroxa",
-      "provider": "unknown",
-      "domain": "aperoxa.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "eidolocal.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-018": {
@@ -378748,13 +378751,13 @@
     },
     "ES-1100": {
       "name": "Beniatjar",
-      "provider": "unknown",
-      "domain": "beniatjar.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "beniatjar.org",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-1101": {
@@ -378947,13 +378950,13 @@
     },
     "ES-1116": {
       "name": "Benigànim",
-      "provider": "unknown",
-      "domain": "beniganim.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "beniganim.org",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-1117": {
@@ -385541,13 +385544,13 @@
     },
     "ES-164": {
       "name": "Alba de Yeltes",
-      "provider": "unknown",
-      "domain": "albadeyeltes.com",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-1640": {
@@ -390959,13 +390962,14 @@
     },
     "ES-2065": {
       "name": "Chella",
-      "provider": "unknown",
-      "domain": "chella.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "aytochella.es",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-2066": {
@@ -396016,13 +396020,13 @@
     },
     "ES-2465": {
       "name": "El Burgo de Osma-Ciudad de Osma",
-      "provider": "unknown",
-      "domain": "burgodeosma.com",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "burgosma.es",
+      "confidence": 80,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
       ]
     },
     "ES-2466": {
@@ -396604,13 +396608,12 @@
     },
     "ES-2511": {
       "name": "El Hornillo",
-      "provider": "unknown",
-      "domain": "elhornillo.es",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "yahoo.es",
+      "confidence": 85,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-2512": {
@@ -404903,13 +404906,12 @@
     },
     "ES-3165": {
       "name": "Gomesende",
-      "provider": "unknown",
-      "domain": "gomesende.es",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "yahoo.es",
+      "confidence": 85,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-3166": {
@@ -407466,13 +407468,13 @@
     },
     "ES-3368": {
       "name": "Horcajo Medianero",
-      "provider": "unknown",
-      "domain": "horcajomedianero.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-3369": {
@@ -416360,13 +416362,13 @@
     },
     "ES-4069": {
       "name": "Linares de Riofrío",
-      "provider": "unknown",
-      "domain": "linaresderiofrio.org",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "linaresderiofrio.es",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-407": {
@@ -420927,13 +420929,14 @@
     },
     "ES-4430": {
       "name": "Matilla de los Caños del Río",
-      "provider": "unknown",
-      "domain": "matilladeloscanosdelrio.com",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "hotmail.com",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-4431": {
@@ -437699,13 +437702,13 @@
     },
     "ES-5754": {
       "name": "Rairiz de Veiga",
-      "provider": "unknown",
-      "domain": "rairizdeveiga.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "eidolocal.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5755": {
@@ -440292,13 +440295,14 @@
     },
     "ES-5959": {
       "name": "Rubena",
-      "provider": "unknown",
-      "domain": "rubena.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-596": {
@@ -440418,13 +440422,14 @@
     },
     "ES-5969": {
       "name": "Rucandio",
-      "provider": "unknown",
-      "domain": "rucandio.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-597": {
@@ -441371,13 +441376,14 @@
     },
     "ES-6043": {
       "name": "Salinillas de Bureba",
-      "provider": "unknown",
-      "domain": "salinillasdebureba.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6044": {
@@ -441783,13 +441789,14 @@
     },
     "ES-6076": {
       "name": "San Adrián de Juarros",
-      "provider": "unknown",
-      "domain": "sanadriandejuarros.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6077": {
@@ -442540,13 +442547,14 @@
     },
     "ES-6137": {
       "name": "San Juan del Monte",
-      "provider": "unknown",
-      "domain": "sanjuandelmonte.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6138": {
@@ -442677,13 +442685,14 @@
     },
     "ES-6148": {
       "name": "San Mamés de Burgos",
-      "provider": "unknown",
-      "domain": "sanmamesdeburgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6149": {
@@ -442745,13 +442754,14 @@
     },
     "ES-6153": {
       "name": "San Martín de Rubiales",
-      "provider": "unknown",
-      "domain": "sanmartinderubiales.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6154": {
@@ -443102,13 +443112,14 @@
     },
     "ES-6181": {
       "name": "San Millán de Lara",
-      "provider": "unknown",
-      "domain": "sanmillandelara.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6182": {
@@ -443757,13 +443768,14 @@
     },
     "ES-6233": {
       "name": "San Xoán de Río",
-      "provider": "unknown",
-      "domain": "sanxoanderio.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "concellosanxoanderio.com",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6234": {
@@ -445791,13 +445803,14 @@
     },
     "ES-6393": {
       "name": "Santa Cruz de la Salceda",
-      "provider": "unknown",
-      "domain": "santacruzdelasalceda.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6394": {
@@ -445892,13 +445905,13 @@
     },
     "ES-6401": {
       "name": "Santa Cruz del Valle Urbión",
-      "provider": "unknown",
-      "domain": "santacruzdelvalleurbion.es",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "cgt.es",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6402": {
@@ -446138,13 +446151,14 @@
     },
     "ES-6420": {
       "name": "Santa Gadea del Cid",
-      "provider": "unknown",
-      "domain": "santagadeadelcid.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6421": {
@@ -453530,13 +453544,14 @@
     },
     "ES-7001": {
       "name": "Torrelavega",
-      "provider": "unknown",
-      "domain": "torrelavega.es",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "aytotorrelavega.es",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-7002": {
@@ -456820,13 +456835,13 @@
     },
     "ES-726": {
       "name": "Arnedillo",
-      "provider": "unknown",
-      "domain": "arnedillo.org",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "aytoarnedillo.org",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-7260": {
@@ -459252,13 +459267,14 @@
     },
     "ES-7450": {
       "name": "Vecinos",
-      "provider": "unknown",
-      "domain": "vecinos.es",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "hotmail.com",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-7451": {
@@ -459816,13 +459832,14 @@
     },
     "ES-7495": {
       "name": "Ventas de Huelma",
-      "provider": "unknown",
-      "domain": "ventasdehuelma.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "dipgra.es",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-7496": {
@@ -460741,13 +460758,13 @@
     },
     "ES-7568": {
       "name": "Vilamarín",
-      "provider": "unknown",
-      "domain": "vilamarin.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "eidolocal.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-7569": {
@@ -465355,13 +465372,13 @@
     },
     "ES-7931": {
       "name": "Villaseco de los Reyes",
-      "provider": "unknown",
-      "domain": "villasecodelosreyes.com",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "ayuntamiento.es",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-7932": {
@@ -466320,13 +466337,13 @@
     },
     "ES-8008": {
       "name": "Vinalesa",
-      "provider": "unknown",
-      "domain": "vinalesa.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "vinalesa.org",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-8009": {
@@ -467541,13 +467558,13 @@
     },
     "ES-8103": {
       "name": "Zamayón",
-      "provider": "unknown",
-      "domain": "zamayon.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-8104": {
@@ -473191,13 +473208,11 @@
       "name": "Hollola",
       "provider": "microsoft",
       "domain": "hollola.fi",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -486523,13 +486538,13 @@
     },
     "GE-038": {
       "name": "Lanchkhuti Municipality",
-      "provider": "unknown",
-      "domain": "lanchkhuti.gov.ge",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "GE-039": {
@@ -492470,14 +492485,13 @@
     },
     "GR-058": {
       "name": "Chalkideon",
-      "provider": "microsoft",
-      "domain": "culture.gr",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "dimoschalkideon.gr",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "GR-059": {
@@ -498383,8 +498397,9 @@
       "name": "San Miguel Chicaj",
       "provider": "independent",
       "domain": "munisanmiguelchicaj.gob.gt",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -510914,7 +510929,7 @@
     },
     "HU-043": {
       "name": "Gyula District",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "gyula.hu",
       "confidence": 90,
       "flags": [
@@ -511783,10 +511798,10 @@
       "name": "Ráckeve District",
       "provider": "local-isp",
       "domain": "rackeve.hu",
-      "confidence": 90,
+      "confidence": 80,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -511874,9 +511889,10 @@
       "name": "Szarvas District",
       "provider": "local-isp",
       "domain": "szarvas.hu",
-      "confidence": 50,
+      "confidence": 88,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -512427,9 +512443,10 @@
       "name": "Aceh Tamiang",
       "provider": "independent",
       "domain": "acehtamiangkab.go.id",
-      "confidence": 50,
+      "confidence": 88,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -515805,11 +515822,10 @@
       "name": "Pacitan",
       "provider": "local-isp",
       "domain": "pacitankab.go.id",
-      "confidence": 93,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -522842,13 +522858,15 @@
     },
     "IT-132": {
       "name": "Modena",
-      "provider": "independent",
+      "provider": "google",
       "domain": "comune.modena.it",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "IT-133": {
@@ -523316,12 +523334,13 @@
       "name": "Siracusa",
       "provider": "microsoft",
       "domain": "comune.siracusa.it",
-      "confidence": 68,
+      "confidence": 83,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "multi_provider_spf:aws+microsoft",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "IT-173": {
@@ -524550,8 +524569,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "KE-031": {
@@ -526921,13 +526939,13 @@
     },
     "KR-010": {
       "name": "Buk District",
-      "provider": "unknown",
-      "domain": "buk.daegu.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "knu.ac.kr",
+      "confidence": 80,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
       ]
     },
     "KR-011": {
@@ -527172,24 +527190,24 @@
     },
     "KR-033": {
       "name": "Dong-gu",
-      "provider": "unknown",
-      "domain": "dong.daegu.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-034": {
       "name": "Dongducheon",
-      "provider": "unknown",
-      "domain": "ddc.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-035": {
@@ -527537,13 +527555,13 @@
     },
     "KR-066": {
       "name": "Gwacheon",
-      "provider": "unknown",
-      "domain": "gccity.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-067": {
@@ -527624,13 +527642,13 @@
     },
     "KR-074": {
       "name": "Gyeryong",
-      "provider": "unknown",
-      "domain": "gyeryong.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-075": {
@@ -527916,13 +527934,13 @@
     },
     "KR-101": {
       "name": "Jeungpyeong County",
-      "provider": "unknown",
-      "domain": "jp.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-102": {
@@ -528273,13 +528291,13 @@
     },
     "KR-134": {
       "name": "Sacheon",
-      "provider": "unknown",
-      "domain": "sacheon.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-135": {
@@ -528327,13 +528345,13 @@
     },
     "KR-139": {
       "name": "Sasang District",
-      "provider": "unknown",
-      "domain": "sasang.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-140": {
@@ -528651,13 +528669,13 @@
     },
     "KR-169": {
       "name": "Ulju County",
-      "provider": "unknown",
-      "domain": "ulju.ulsan.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-170": {
@@ -532592,11 +532610,12 @@
       "name": "Kehlen",
       "provider": "microsoft",
       "domain": "kehlen.lu",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "LU-0106": {
@@ -550866,13 +550885,13 @@
     },
     "ME-019": {
       "name": "Rožaje Municipality",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "rozaje.me",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ME-020": {
@@ -601635,12 +601654,11 @@
     },
     "NL-0392": {
       "name": "Haarlem",
-      "provider": "independent",
+      "provider": "microsoft",
       "domain": "haarlem.nl",
-      "confidence": 90,
+      "confidence": 70,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -601893,11 +601911,13 @@
       "name": "Zandvoort",
       "provider": "microsoft",
       "domain": "zandvoort.nl",
-      "confidence": 90,
+      "confidence": 100,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "NL-0479": {
@@ -601986,10 +602006,10 @@
       "name": "Dordrecht",
       "provider": "local-isp",
       "domain": "dordrecht.nl",
-      "confidence": 90,
+      "confidence": 80,
       "flags": [
         "multiple_mx",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -602513,7 +602533,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "multi_provider_spf:aws+microsoft",
+        "multi_provider_spf:aws+mailjet+microsoft",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -637050,13 +637070,13 @@
     },
     "PH-1014": {
       "name": "Pili",
-      "provider": "unknown",
-      "domain": "pili.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1015": {
@@ -637268,13 +637288,13 @@
     },
     "PH-1031": {
       "name": "Polanco",
-      "provider": "unknown",
-      "domain": "lgupolanco.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1032": {
@@ -640752,14 +640772,13 @@
     },
     "PH-1307": {
       "name": "Siruma",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "siruma.ph",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1308": {
@@ -643730,13 +643749,13 @@
     },
     "PH-213": {
       "name": "Bontoc",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "lgubontoc.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-214": {
@@ -646135,13 +646154,13 @@
     },
     "PH-424": {
       "name": "Dipolog",
-      "provider": "independent",
-      "domain": "dipolog.ph",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "dipologcity.gov.ph",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-425": {
@@ -648660,13 +648679,14 @@
     },
     "PH-646": {
       "name": "Laoag",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "laoagcity.gov.ph",
-      "confidence": 15,
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-647": {
@@ -649274,13 +649294,13 @@
     },
     "PH-700": {
       "name": "Lobo",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "lobo.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-701": {
@@ -654879,13 +654899,13 @@
     },
     "PL-0193": {
       "name": "Białystok",
-      "provider": "independent",
-      "domain": "um.bialystok.pl",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "bialystok.pl",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PL-0194": {
@@ -656426,13 +656446,14 @@
     },
     "PL-0332": {
       "name": "Bytom",
-      "provider": "unknown",
-      "domain": "bytom.pl",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "um.bytom.pl",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PL-0333": {
@@ -665555,13 +665576,13 @@
     },
     "RS-092": {
       "name": "Niška Banja City Municipality",
-      "provider": "unknown",
-      "domain": "goniskabanja.org.rs",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "RS-093": {
@@ -667392,8 +667413,9 @@
       "name": "Sverdlovsk Oblast",
       "provider": "independent",
       "domain": "midural.ru",
-      "confidence": 85,
+      "confidence": 90,
       "flags": [
+        "multiple_mx",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -667556,10 +667578,10 @@
       "name": "Yaroslavl Oblast",
       "provider": "independent",
       "domain": "yarregion.ru",
-      "confidence": 90,
+      "confidence": 80,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -680121,9 +680143,8 @@
       "name": "Sentosa",
       "provider": "microsoft",
       "domain": "sentosa.com.sg",
-      "confidence": 100,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified",
@@ -700426,122 +700447,123 @@
     },
     "TR-001": {
       "name": "Adana Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "adana.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-002": {
       "name": "Adıyaman Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "adiyaman.gov.tr",
-      "confidence": 85,
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-003": {
       "name": "Afyonkarahisar Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "afyonkarahisar.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-004": {
       "name": "Aksaray Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "aksaray.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-005": {
       "name": "Amasya Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "amasya.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-006": {
       "name": "Ankara Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "ankara.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-007": {
       "name": "Antalya Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "antalya.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-008": {
       "name": "Ardahan Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "ardahan.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-009": {
       "name": "Artvin Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "artvin.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-010": {
       "name": "Aydın Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "aydin.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-011": {
       "name": "Ağrı Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "agri.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-012": {
@@ -700557,35 +700579,35 @@
     },
     "TR-013": {
       "name": "Bartın Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "bartin.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-014": {
       "name": "Batman Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "batman.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-015": {
       "name": "Bayburt Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "bayburt.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-016": {
@@ -700601,68 +700623,68 @@
     },
     "TR-017": {
       "name": "Bingöl Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "bingol.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-018": {
       "name": "Bitlis Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "bitlis.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-019": {
       "name": "Bolu Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "bolu.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-020": {
       "name": "Burdur Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "burdur.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-021": {
       "name": "Bursa Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "bursa.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-022": {
       "name": "Denizli Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "denizli.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-023": {
@@ -700679,13 +700701,13 @@
     },
     "TR-024": {
       "name": "Düzce Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "duzce.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-025": {
@@ -700703,68 +700725,68 @@
     },
     "TR-026": {
       "name": "Elazığ Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "elazig.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-027": {
       "name": "Erzincan Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "erzincan.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-028": {
       "name": "Erzurum Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "erzurum.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-029": {
       "name": "Eskişehir Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "eskisehir.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-030": {
       "name": "Gaziantep Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "gaziantep.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-031": {
       "name": "Giresun Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "giresun.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-032": {
@@ -700780,35 +700802,35 @@
     },
     "TR-033": {
       "name": "Hakkâri Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "hakkari.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-034": {
       "name": "Hatay Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "hatay.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-035": {
       "name": "Isparta Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "isparta.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-036": {
@@ -700824,79 +700846,79 @@
     },
     "TR-037": {
       "name": "Iğdır Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "igdir.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-038": {
       "name": "Kahramanmaraş Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kahramanmaras.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-039": {
       "name": "Karabük Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "karabuk.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-040": {
       "name": "Karaman Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "karaman.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-041": {
       "name": "Kars Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kars.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-042": {
       "name": "Kastamonu Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kastamonu.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-043": {
       "name": "Kayseri Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kayseri.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-044": {
@@ -700913,19 +700935,19 @@
     },
     "TR-045": {
       "name": "Kocaeli Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kocaeli.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-046": {
       "name": "Konya Province",
       "provider": "local-isp",
-      "domain": "konya.gov.tr",
+      "domain": "icisleri.gov.tr",
       "confidence": 90,
       "flags": [
         "spf_strict",
@@ -700935,68 +700957,68 @@
     },
     "TR-047": {
       "name": "Kütahya Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kutahya.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-048": {
       "name": "Kırklareli Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kirklareli.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-049": {
       "name": "Kırıkkale Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kirikkale.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-050": {
       "name": "Kırşehir Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "kirsehir.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-051": {
       "name": "Malatya Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "malatya.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-052": {
       "name": "Manisa Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "manisa.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-053": {
@@ -701013,101 +701035,101 @@
     },
     "TR-054": {
       "name": "Mersin Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "mersin.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-055": {
       "name": "Muğla Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "mugla.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-056": {
       "name": "Muş Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "mus.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-057": {
       "name": "Nevşehir Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "nevsehir.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-058": {
       "name": "Niğde Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "nigde.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-059": {
       "name": "Ordu Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "ordu.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-060": {
       "name": "Osmaniye Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "osmaniye.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-061": {
       "name": "Rize Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "rize.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-062": {
       "name": "Sakarya Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "sakarya.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-063": {
@@ -701123,173 +701145,173 @@
     },
     "TR-064": {
       "name": "Siirt Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "siirt.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-065": {
       "name": "Sinop Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "sinop.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-066": {
       "name": "Sivas Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "sivas.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-067": {
       "name": "Tekirdağ Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "tekirdag.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-068": {
       "name": "Tokat Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "tokat.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-069": {
       "name": "Trabzon Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "trabzon.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-070": {
       "name": "Tunceli Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "tunceli.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-071": {
       "name": "Uşak Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "usak.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-072": {
       "name": "Van Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "van.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-073": {
       "name": "Yalova Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "yalova.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-074": {
       "name": "Yozgat Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "yozgat.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-075": {
       "name": "Zonguldak Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "zonguldak.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-076": {
       "name": "Çanakkale Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "canakkale.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-077": {
       "name": "Çankırı Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "cankiri.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-078": {
       "name": "Çorum Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "corum.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-079": {
       "name": "İzmir Province",
       "provider": "local-isp",
-      "domain": "izmir.gov.tr",
+      "domain": "icisleri.gov.tr",
       "confidence": 90,
       "flags": [
         "spf_strict",
@@ -701299,24 +701321,24 @@
     },
     "TR-080": {
       "name": "Şanlıurfa Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "sanliurfa.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TR-081": {
       "name": "Şırnak Province",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "sirnak.gov.tr",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TT-001": {
@@ -711014,13 +711036,13 @@
     },
     "VE-286": {
       "name": "Municipio Sucre",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "alcaldiamunicipiosucre.gov.ve",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "VE-287": {
@@ -712456,15 +712478,13 @@
     },
     "XK-013": {
       "name": "Kaçanik Municipality",
-      "provider": "microsoft",
-      "domain": "rks-gov.net",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "kacanik.rks-gov.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "XK-014": {
@@ -713262,7 +713282,8 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "ZA-022": {
@@ -713904,7 +713925,8 @@
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "ZA-077": {
