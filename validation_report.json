@@ -1,7 +1,7 @@
 {
   "total": 61641,
   "average_score": 83.2,
-  "high_confidence_pct": 83.9,
+  "high_confidence_pct": 84.0,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -62690,13 +62690,13 @@
     },
     "BD-008": {
       "name": "Sylhet Division",
-      "provider": "independent",
-      "domain": "mopa.gov.bd",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "sylhetdiv.gov.bd",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BE-11001": {
@@ -91398,13 +91398,14 @@
     },
     "BR-172": {
       "name": "Amélia Rodrigues",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "ameliarodrigues.ba.gov.br",
-      "confidence": 15,
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-1720": {
@@ -167636,13 +167637,13 @@
     },
     "CA-2512": {
       "name": "Roddickton-Bide Arm",
-      "provider": "unknown",
-      "domain": "roddickton.bidearm.ca",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "nf.aibn.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "CA-2513": {
@@ -186357,13 +186358,12 @@
     },
     "CA-473": {
       "name": "Castle Island",
-      "provider": "unknown",
-      "domain": "summervillageofcastleisland.com",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "elkow.ca",
+      "confidence": 68,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "provider_classified"
       ]
     },
     "CA-474": {
@@ -197832,7 +197832,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "CL-061": {
@@ -389012,13 +389013,14 @@
     },
     "ES-1904": {
       "name": "Castrillo de la Reina",
-      "provider": "unknown",
-      "domain": "castrillodelareina.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-1905": {
@@ -402548,13 +402550,14 @@
     },
     "ES-2969": {
       "name": "Fuentelcésped",
-      "provider": "unknown",
-      "domain": "fuentelcesped.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-297": {
@@ -445568,13 +445571,14 @@
     },
     "ES-6361": {
       "name": "Santa Cecilia",
-      "provider": "unknown",
-      "domain": "santacecilia.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6362": {
@@ -486730,13 +486734,13 @@
     },
     "GE-038": {
       "name": "Lanchkhuti Municipality",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "lanchkhuti.gov.ge",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "GE-039": {
@@ -504997,7 +505001,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "HR-101": {
@@ -527089,13 +527094,14 @@
     },
     "KR-006": {
       "name": "Boryeong",
-      "provider": "unknown",
-      "domain": "brcn.go.kr",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "hanmail.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KR-007": {
@@ -580937,10 +580943,11 @@
     "MX-678": {
       "name": "Honey Municipality",
       "provider": "independent",
-      "domain": "honey.mx",
-      "confidence": 50,
+      "domain": "honey.gob.mx",
+      "confidence": 88,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -585640,14 +585647,13 @@
     },
     "MY-085": {
       "name": "Manjung",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "manjung.my",
+      "confidence": 88,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "MY-086": {
@@ -637697,14 +637703,13 @@
     },
     "PH-1049": {
       "name": "Pualas",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "local-isp",
+      "domain": "pualas.ph",
+      "confidence": 88,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-105": {
@@ -650863,14 +650868,13 @@
     },
     "PH-821": {
       "name": "Marcos",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "marcos.ph",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-822": {
@@ -659324,13 +659328,13 @@
     },
     "PT-0166": {
       "name": "Sobral de Monte Agraço",
-      "provider": "unknown",
+      "provider": "local-isp",
       "domain": "cm-sobral-monte-agraco.pt",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PT-0167": {
@@ -682860,11 +682864,11 @@
     },
     "SI-170": {
       "name": "Mirna Peč",
-      "provider": "independent",
-      "domain": "pestcontrol.si",
-      "confidence": 88,
+      "provider": "local-isp",
+      "domain": "siol.net",
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -708830,13 +708834,14 @@
     },
     "VE-075": {
       "name": "Municipio Barinas",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "concejomunicipalbarinas.com",
-      "confidence": 15,
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "VE-076": {
@@ -712624,24 +712629,28 @@
     },
     "XK-007": {
       "name": "Gjakova Municipality",
-      "provider": "unknown",
-      "domain": "gjakova.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-008": {
       "name": "Gjilan Municipality",
-      "provider": "unknown",
-      "domain": "gjilan.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-009": {
@@ -712689,13 +712698,15 @@
     },
     "XK-013": {
       "name": "Kaçanik Municipality",
-      "provider": "unknown",
-      "domain": "kacanik.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-014": {
@@ -714137,8 +714148,7 @@
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ZA-077": {
