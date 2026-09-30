@@ -21722,14 +21722,14 @@
     },
     "AR-544": {
       "name": "Gilbert",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "gilbert.ar",
+      "confidence": 93,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "AR-545": {
@@ -25200,10 +25200,10 @@
       "name": "Mainqué",
       "provider": "independent",
       "domain": "mainque.gob.ar",
-      "confidence": 95,
+      "confidence": 93,
       "flags": [
         "multiple_mx",
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -26743,14 +26743,13 @@
     },
     "AR-969": {
       "name": "Patagones Partido",
-      "provider": "independent",
-      "domain": "patagones.gob.ar",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "patagoniabonaerense.gov.ar",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "AR-970": {
@@ -30049,9 +30048,10 @@
     "AT-20727": {
       "name": "Wernberg",
       "provider": "independent",
-      "domain": "wernberg.gv.at",
-      "confidence": 85,
+      "domain": "wernberg.at",
+      "confidence": 90,
       "flags": [
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -45819,7 +45819,7 @@
     "AT-61750": {
       "name": "Strallegg",
       "provider": "local-isp",
-      "domain": "strallegg.at",
+      "domain": "strallegg.eu",
       "confidence": 90,
       "flags": [
         "spf_strict",
@@ -53181,13 +53181,15 @@
     },
     "AU-131": {
       "name": "City of Lithgow",
-      "provider": "independent",
-      "domain": "lithgow.com.au",
-      "confidence": 90,
+      "provider": "microsoft",
+      "domain": "lithgow.nsw.gov.au",
+      "confidence": 83,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "AU-132": {
@@ -59955,13 +59957,11 @@
       "name": "West Coast Council",
       "provider": "microsoft",
       "domain": "westcoast.tas.gov.au",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -64139,9 +64139,10 @@
       "name": "Pajottegem",
       "provider": "microsoft",
       "domain": "pajottegem.be",
-      "confidence": 75,
+      "confidence": 95,
       "flags": [
         "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -81733,11 +81734,11 @@
     },
     "BR-044": {
       "name": "Aguaí",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "aguai.sp.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -82061,9 +82062,9 @@
       "name": "Alegrete do Piauí",
       "provider": "independent",
       "domain": "alegretedopiaui.pi.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -82981,13 +82982,13 @@
     },
     "BR-1048": {
       "name": "Carapicuíba",
-      "provider": "zoho",
+      "provider": "independent",
       "domain": "carapicuiba.sp.gov.br",
-      "confidence": 93,
+      "confidence": 70,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "multi_provider_spf:google+microsoft",
         "provider_classified"
       ]
     },
@@ -84930,14 +84931,13 @@
     },
     "BR-1204": {
       "name": "Chapadão do Lageado",
-      "provider": "independent",
-      "domain": "chapadaodolageado.sc.gov.br",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "chapadaodolageado.atende.net",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BR-1205": {
@@ -85419,9 +85419,9 @@
       "name": "Cocal de Telha",
       "provider": "independent",
       "domain": "cocaldetelha.pi.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -86031,9 +86031,9 @@
       "name": "Conceição do Canindé",
       "provider": "independent",
       "domain": "conceicaodocaninde.pi.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -87002,9 +87002,9 @@
       "name": "Corrente",
       "provider": "independent",
       "domain": "corrente.pi.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -89415,11 +89415,10 @@
       "name": "Dom Eliseu",
       "provider": "independent",
       "domain": "domeliseu.pa.gov.br",
-      "confidence": 70,
+      "confidence": 88,
       "flags": [
-        "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "multi_provider_spf:google+microsoft",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -91994,9 +91993,9 @@
       "name": "Floresta do Piauí",
       "provider": "independent",
       "domain": "florestadopiaui.pi.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -92746,9 +92745,9 @@
       "name": "Fronteiras",
       "provider": "independent",
       "domain": "fronteiras.pi.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -93324,10 +93323,10 @@
     "BR-1873": {
       "name": "Giruá",
       "provider": "independent",
-      "domain": "girua.rs.gov.br",
-      "confidence": 88,
+      "domain": "girua.com.br",
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -93679,11 +93678,12 @@
     },
     "BR-1901": {
       "name": "Gonçalves",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "goncalves.mg.gov.br",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -93863,11 +93863,11 @@
     },
     "BR-1916": {
       "name": "Governador Valadares",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "valadares.mg.gov.br",
       "confidence": 90,
       "flags": [
-        "multiple_mx",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -97941,14 +97941,13 @@
     },
     "BR-2243": {
       "name": "Israelândia",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "israelandia.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-2244": {
@@ -98997,14 +98996,13 @@
     },
     "BR-2328": {
       "name": "Itaperuçu",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "itaperucu.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-2329": {
@@ -104607,10 +104605,11 @@
       "name": "Luiziânia",
       "provider": "independent",
       "domain": "luiziania.sp.gov.br",
-      "confidence": 90,
+      "confidence": 70,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
+        "multi_provider_spf:google+microsoft",
         "provider_classified"
       ]
     },
@@ -106310,9 +106309,10 @@
       "name": "Marialva",
       "provider": "independent",
       "domain": "marialva.pr.gov.br",
-      "confidence": 90,
+      "confidence": 93,
       "flags": [
         "multiple_mx",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -106397,14 +106397,13 @@
     },
     "BR-2918": {
       "name": "Marilena",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "marilena.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-2919": {
@@ -106423,9 +106422,9 @@
       "name": "Araputanga",
       "provider": "independent",
       "domain": "araputanga.mt.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -106456,13 +106455,13 @@
     },
     "BR-2922": {
       "name": "Maringá",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "maringa.pr.gov.br",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BR-2923": {
@@ -108303,10 +108302,11 @@
       "name": "Mogi das Cruzes",
       "provider": "microsoft",
       "domain": "mogidascruzes.sp.gov.br",
-      "confidence": 95,
+      "confidence": 83,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
+        "multi_provider_spf:google+microsoft",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -108955,11 +108955,11 @@
     },
     "BR-3122": {
       "name": "Montes Claros",
-      "provider": "google",
-      "domain": "montesclaros.mg.gov.br",
-      "confidence": 88,
+      "provider": "independent",
+      "domain": "montes-claros.com.br",
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -110639,9 +110639,9 @@
       "name": "Nova Aurora",
       "provider": "independent",
       "domain": "novaaurora.pr.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -113524,13 +113524,14 @@
     },
     "BR-3485": {
       "name": "Palma Sola",
-      "provider": "unknown",
-      "domain": "palmasola.atende.net",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "palmasola.sc.gov.br",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3486": {
@@ -114651,12 +114652,13 @@
     },
     "BR-3574": {
       "name": "Paripiranga",
-      "provider": "independent",
-      "domain": "paripiranga.com.br",
-      "confidence": 85,
+      "provider": "unknown",
+      "domain": "paripiranga.ba.io.org.br",
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BR-3575": {
@@ -118189,14 +118191,13 @@
     },
     "BR-3856": {
       "name": "Ponta de Pedras",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "ponta-de-pedras.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3857": {
@@ -120537,9 +120538,9 @@
       "name": "Regente Feijó",
       "provider": "independent",
       "domain": "regentefeijo.sp.gov.br",
-      "confidence": 90,
+      "confidence": 88,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -125644,9 +125645,10 @@
       "name": "Santarém",
       "provider": "independent",
       "domain": "santarem.pa.gov.br",
-      "confidence": 50,
+      "confidence": 78,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -127127,9 +127129,9 @@
       "name": "Sericita",
       "provider": "independent",
       "domain": "sericita.mg.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -127870,14 +127872,13 @@
     },
     "BR-4623": {
       "name": "Silva Jardim",
-      "provider": "google",
+      "provider": "unknown",
       "domain": "silvajardim.rj.gov.br",
-      "confidence": 93,
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BR-4624": {
@@ -128495,9 +128496,9 @@
       "name": "Sussuapara",
       "provider": "independent",
       "domain": "sussuapara.pi.gov.br",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -130636,8 +130637,9 @@
       "name": "São José dos Pinhais",
       "provider": "independent",
       "domain": "sjp.pr.gov.br",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -130647,9 +130649,8 @@
       "name": "São José dos Quatro Marcos",
       "provider": "independent",
       "domain": "saojosedosquatromarcos.mt.gov.br",
-      "confidence": 93,
+      "confidence": 88,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -136121,9 +136122,10 @@
     "BR-5276": {
       "name": "Uberaba",
       "provider": "google",
-      "domain": "uberaba.mg.gov.br",
-      "confidence": 88,
+      "domain": "uberaba.com.br",
+      "confidence": 93,
       "flags": [
+        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -136914,14 +136916,13 @@
     },
     "BR-534": {
       "name": "Bela Cruz",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "bela-cruz.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-5340": {
@@ -146655,14 +146656,15 @@
     },
     "CA-005": {
       "name": "Aberdeen",
-      "provider": "independent",
-      "domain": "sasktel.net",
+      "provider": "microsoft",
+      "domain": "hepburn.ca",
       "confidence": 93,
       "flags": [
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "CA-006": {
@@ -177255,13 +177257,13 @@
     },
     "CA-3250": {
       "name": "South Baptiste",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "southbaptiste.com",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-3251": {
@@ -191288,13 +191290,14 @@
     },
     "CA-888": {
       "name": "Fabre",
-      "provider": "independent",
-      "domain": "fabre.ca",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "",
+      "confidence": 0,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_domain",
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-889": {
@@ -197839,7 +197842,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "CL-061": {
@@ -200885,13 +200889,13 @@
     },
     "CL-323": {
       "name": "Treguaco",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "trehuaco.com",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CL-324": {
@@ -486912,9 +486916,9 @@
       "name": "Tsalenjikha Municipality",
       "provider": "local-isp",
       "domain": "tsalenjikha.gov.ge",
-      "confidence": 90,
+      "confidence": 88,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -495971,13 +495975,13 @@
     },
     "GT-018": {
       "name": "Casillas",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "municasillas.gob.gt",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "GT-019": {
@@ -519996,10 +520000,9 @@
       "name": "Nagaland",
       "provider": "independent",
       "domain": "nagaland.gov.in",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -521484,10 +521487,10 @@
       "name": "Cuneo",
       "provider": "independent",
       "domain": "provincia.cuneo.it",
-      "confidence": 90,
+      "confidence": 80,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -528018,21 +528021,22 @@
     "KR-097": {
       "name": "Jeju",
       "provider": "independent",
-      "domain": "jta.or.kr",
-      "confidence": 78,
+      "domain": "korea.kr",
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
-        "independent_mx_with_cloud_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
     "KR-098": {
       "name": "Jeongeup",
       "provider": "independent",
-      "domain": "jeongeup.go.kr",
-      "confidence": 50,
+      "domain": "jeongeup.or.kr",
+      "confidence": 88,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -610709,13 +610713,11 @@
       "name": "Whanganui District",
       "provider": "microsoft",
       "domain": "whanganui.govt.nz",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -637174,13 +637176,13 @@
     },
     "PH-1014": {
       "name": "Pili",
-      "provider": "unknown",
-      "domain": "pili.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1015": {
@@ -649018,13 +649020,13 @@
     },
     "PH-667": {
       "name": "Leon",
-      "provider": "unknown",
-      "domain": "leon.gov.ph",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "yahoo.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-668": {
@@ -652650,13 +652652,13 @@
     },
     "PH-985": {
       "name": "Passi",
-      "provider": "unknown",
-      "domain": "passicity.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-986": {
@@ -659279,11 +659281,12 @@
       "name": "Câmara de Lobos",
       "provider": "microsoft",
       "domain": "cm-camaradelobos.pt",
-      "confidence": 80,
+      "confidence": 85,
       "flags": [
         "spf_strict",
         "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "PT-0171": {
@@ -660844,13 +660847,13 @@
     },
     "PT-0302": {
       "name": "Portel",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "cm-portel.pt",
-      "confidence": 88,
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PT-0303": {
@@ -666836,7 +666839,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "RU-011": {
@@ -679649,11 +679653,10 @@
     },
     "SG-077": {
       "name": "Kembangan",
-      "provider": "independent",
+      "provider": "google",
       "domain": "kembangan.sg",
-      "confidence": 93,
+      "confidence": 88,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -685929,14 +685932,13 @@
     },
     "SN-122": {
       "name": "Ngor",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "sip.sn",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
-        "spf_strict",
+        "multiple_mx",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "SN-123": {
@@ -704232,13 +704234,14 @@
     },
     "UA-012": {
       "name": "Bilhorod-Dnistrovskyi Raion",
-      "provider": "unknown",
-      "domain": "bd-rda.od.gov.ua",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "od.gov.ua",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "UA-014": {
@@ -707781,12 +707784,13 @@
     },
     "UZ-008": {
       "name": "Sirdaryo Region",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "sirdaryo.uz",
-      "confidence": 85,
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "UZ-009": {
@@ -711160,13 +711164,13 @@
     },
     "VE-286": {
       "name": "Municipio Sucre",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "alcaldiamunicipiosucre.gov.ve",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "VE-287": {
@@ -711802,13 +711806,13 @@
     },
     "VE-342": {
       "name": "Sucre",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "alcaldiamunicipiosucre.gov.ve",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "VE-343": {
@@ -712533,13 +712537,15 @@
     },
     "XK-007": {
       "name": "Gjakova Municipality",
-      "provider": "unknown",
-      "domain": "gjakova.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-008": {
@@ -712600,13 +712606,15 @@
     },
     "XK-013": {
       "name": "Kaçanik Municipality",
-      "provider": "unknown",
-      "domain": "kacanik.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-014": {
@@ -714048,7 +714056,8 @@
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "ZA-077": {
@@ -714732,10 +714741,9 @@
       "name": "Nkandla Local Municipality",
       "provider": "local-isp",
       "domain": "nkandla.org.za",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
