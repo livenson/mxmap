@@ -1,6 +1,6 @@
 {
   "total": 61641,
-  "average_score": 83.2,
+  "average_score": 83.3,
   "high_confidence_pct": 84.0,
   "quality_passed": true,
   "entries": {
@@ -9562,9 +9562,9 @@
       "name": "Presidencia Roque Sáenz Peña",
       "provider": "independent",
       "domain": "ciudadtermal.com.ar",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -30462,12 +30462,12 @@
     },
     "AT-30502": {
       "name": "Amstetten",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "amstetten.at",
-      "confidence": 78,
+      "confidence": 88,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -75841,14 +75841,13 @@
     },
     "BJ-003": {
       "name": "Adjarra",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "adjarra.bj",
+      "confidence": 88,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BJ-004": {
@@ -78763,8 +78762,7 @@
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "BO-129": {
@@ -83865,13 +83863,13 @@
     },
     "BR-1119": {
       "name": "Casinhas",
-      "provider": "unknown",
-      "domain": "prefeituracasinhas.pe.gov.br",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "casinhas.com.br",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-112": {
@@ -84058,25 +84056,24 @@
     },
     "BR-1134": {
       "name": "Catanduvas",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "catanduvas.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-1135": {
       "name": "Catanduvas",
-      "provider": "unknown",
-      "domain": "catanduvas.sc.org.br",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "catanduvas.com.br",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-1136": {
@@ -94315,13 +94312,13 @@
     },
     "BR-1952": {
       "name": "Guapimirim",
-      "provider": "unknown",
-      "domain": "portalguapimirim.com.br",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "guapimirim.com.br",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-1953": {
@@ -117417,26 +117414,24 @@
     },
     "BR-3794": {
       "name": "Piranhas",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "piranhas.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3795": {
       "name": "Piranhas",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "piranhas.com.br",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3796": {
@@ -145252,14 +145247,13 @@
     },
     "BY-010": {
       "name": "Bierastavica District",
-      "provider": "local-isp",
-      "domain": "berestovitsa.gov.by",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "berestovitsa.grodno-region.by",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BY-011": {
@@ -151344,14 +151338,13 @@
     },
     "CA-1272": {
       "name": "Imperial",
-      "provider": "independent",
-      "domain": "sasktel.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "imperial.ca",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-1273": {
@@ -151368,14 +151361,13 @@
     },
     "CA-1274": {
       "name": "Indian Head",
-      "provider": "independent",
-      "domain": "sasktel.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "townofindianhead.com",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CA-1275": {
@@ -163351,10 +163343,9 @@
       "name": "Oromocto",
       "provider": "microsoft",
       "domain": "oromocto.ca",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -163444,13 +163435,14 @@
     },
     "CA-2192": {
       "name": "Otter Lake",
-      "provider": "independent",
+      "provider": "microsoft",
       "domain": "otterlakequebec.ca",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
-        "no_spf",
-        "provider_classified"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "CA-2193": {
@@ -168304,10 +168296,9 @@
       "name": "Saguenay",
       "provider": "microsoft",
       "domain": "saguenay.ca",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -174459,10 +174450,10 @@
       "name": "Sainte-Croix",
       "provider": "microsoft",
       "domain": "ville-sainte-croix.ca",
-      "confidence": 90,
+      "confidence": 88,
       "flags": [
         "multiple_mx",
-        "spf_strict",
+        "spf_softfail",
         "independent_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
@@ -177854,10 +177845,11 @@
       "name": "St. Andrews",
       "provider": "microsoft",
       "domain": "rmofstandrews.com",
-      "confidence": 95,
+      "confidence": 85,
       "flags": [
         "spf_strict",
         "mx_spf_match",
+        "multi_provider_spf:aws+microsoft",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -186347,13 +186339,12 @@
     },
     "CA-473": {
       "name": "Castle Island",
-      "provider": "unknown",
-      "domain": "summervillageofcastleisland.com",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "elkow.ca",
+      "confidence": 68,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "provider_classified"
       ]
     },
     "CA-474": {
@@ -197828,7 +197819,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "CL-061": {
@@ -198160,13 +198152,13 @@
     },
     "CL-089": {
       "name": "El Monte",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "municipalidaddeelmonte.cl",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "CL-090": {
@@ -373319,12 +373311,12 @@
     },
     "EC-068": {
       "name": "Francisco de Orellana Canton",
-      "provider": "independent",
+      "provider": "google",
       "domain": "orellana.gob.ec",
-      "confidence": 80,
+      "confidence": 90,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -374035,7 +374027,7 @@
     },
     "EC-132": {
       "name": "Palora Canton",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "palora.gob.ec",
       "confidence": 90,
       "flags": [
@@ -427630,13 +427622,13 @@
     },
     "ES-4954": {
       "name": "Navatejares",
-      "provider": "unknown",
-      "domain": "navatejares.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "diputacionavila.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-4955": {
@@ -427834,13 +427826,13 @@
     },
     "ES-4970": {
       "name": "Neila de San Miguel",
-      "provider": "unknown",
-      "domain": "neiladesanmiguel.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "diputaciondeavila.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-4971": {
@@ -429900,13 +429892,13 @@
     },
     "ES-5132": {
       "name": "Orbita",
-      "provider": "unknown",
-      "domain": "orbita.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5133": {
@@ -430995,13 +430987,14 @@
     },
     "ES-5219": {
       "name": "Pajares de Adaja",
-      "provider": "unknown",
-      "domain": "pajaresdeadaja.es",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "pajaresdeadaja.com",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-522": {
@@ -431077,13 +431070,12 @@
     },
     "ES-5225": {
       "name": "Palacios de Goda",
-      "provider": "unknown",
-      "domain": "palaciosdegoda.es",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "yahoo.es",
+      "confidence": 85,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5226": {
@@ -432129,13 +432121,14 @@
     },
     "ES-5308": {
       "name": "Pascualcobo",
-      "provider": "unknown",
-      "domain": "pascualcobo.es",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "hotmail.com",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-5309": {
@@ -432593,13 +432586,13 @@
     },
     "ES-5344": {
       "name": "Pedro-Rodríguez",
-      "provider": "unknown",
-      "domain": "pedrorodriguez.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "diputacionavila.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5345": {
@@ -433645,13 +433638,13 @@
     },
     "ES-5427": {
       "name": "Peñalba de Ávila",
-      "provider": "unknown",
-      "domain": "penalbadeavila.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "diputacionavila.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5428": {
@@ -434053,13 +434046,13 @@
     },
     "ES-546": {
       "name": "Amavida",
-      "provider": "unknown",
-      "domain": "amavida.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5460": {
@@ -435614,13 +435607,13 @@
     },
     "ES-5582": {
       "name": "Poveda",
-      "provider": "unknown",
-      "domain": "poveda.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5583": {
@@ -435750,13 +435743,13 @@
     },
     "ES-5593": {
       "name": "Pozanco",
-      "provider": "unknown",
-      "domain": "pozanco.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5594": {
@@ -436216,13 +436209,13 @@
     },
     "ES-5630": {
       "name": "Pradosegar",
-      "provider": "unknown",
-      "domain": "pradosegar.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "diputacionavila.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5631": {
@@ -437916,13 +437909,13 @@
     },
     "ES-5763": {
       "name": "Rasueros",
-      "provider": "unknown",
-      "domain": "rasueros.es",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "diputacionavila.es",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-5764": {
@@ -453663,13 +453656,14 @@
     },
     "ES-7001": {
       "name": "Torrelavega",
-      "provider": "unknown",
-      "domain": "torrelavega.es",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "aytotorrelavega.es",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ES-7002": {
@@ -492620,13 +492614,14 @@
     },
     "GR-058": {
       "name": "Chalkideon",
-      "provider": "unknown",
-      "domain": "dimoschalkideon.gr",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "culture.gr",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "GR-059": {
@@ -494428,13 +494423,13 @@
     },
     "GR-215": {
       "name": "Northern Corfu",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "mncnorthcorfu.gr",
-      "confidence": 88,
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "GR-216": {
@@ -504797,13 +504792,14 @@
     },
     "HR-088": {
       "name": "Kršan",
-      "provider": "unknown",
+      "provider": "microsoft",
       "domain": "krsan.hr",
-      "confidence": 15,
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "HR-089": {
@@ -509247,7 +509243,7 @@
     },
     "HR-484": {
       "name": "Pašman",
-      "provider": "independent",
+      "provider": "google",
       "domain": "opcinapasman.hr",
       "confidence": 88,
       "flags": [
@@ -509431,7 +509427,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "HR-501": {
@@ -518054,10 +518051,11 @@
       "name": "Trenggalek",
       "provider": "google",
       "domain": "trenggalekkab.go.id",
-      "confidence": 73,
+      "confidence": 95,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -522280,10 +522278,10 @@
       "name": "Teramo",
       "provider": "google",
       "domain": "provincia.teramo.it",
-      "confidence": 95,
+      "confidence": 93,
       "flags": [
         "multiple_mx",
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified",
         "provider_via_gateway_spf"
@@ -528428,13 +528426,13 @@
     },
     "KR-134": {
       "name": "Sacheon",
-      "provider": "independent",
-      "domain": "korea.kr",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "sacheon.go.kr",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-135": {
@@ -528805,13 +528803,13 @@
     },
     "KR-169": {
       "name": "Ulju County",
-      "provider": "independent",
-      "domain": "korea.kr",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "ulju.ulsan.kr",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-170": {
@@ -528914,11 +528912,10 @@
     "KR-179": {
       "name": "Yangyang County",
       "provider": "independent",
-      "domain": "yangyang.kr",
-      "confidence": 90,
+      "domain": "yangyang.or.kr",
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -552594,7 +552591,7 @@
     },
     "MK-045": {
       "name": "Novaci Municipality",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "opstinanovaci.gov.mk",
       "confidence": 88,
       "flags": [
@@ -554398,9 +554395,10 @@
       "name": "Guidimakha",
       "provider": "microsoft",
       "domain": "guidimakha.mr",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -599156,13 +599154,13 @@
     },
     "NI-048": {
       "name": "Kukra Hill",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "alcaldiakukrahill.gob.ni",
-      "confidence": 88,
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "NI-049": {
@@ -637185,13 +637183,13 @@
     },
     "PH-1014": {
       "name": "Pili",
-      "provider": "unknown",
-      "domain": "pili.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1015": {
@@ -637403,13 +637401,13 @@
     },
     "PH-1031": {
       "name": "Polanco",
-      "provider": "unknown",
-      "domain": "lgupolanco.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1032": {
@@ -645209,13 +645207,13 @@
     },
     "PH-331": {
       "name": "Castillejos",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "castillejos.com.ph",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-332": {
@@ -645253,13 +645251,13 @@
     },
     "PH-335": {
       "name": "Cateel",
-      "provider": "unknown",
-      "domain": "cateel.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-336": {
@@ -652663,13 +652661,13 @@
     },
     "PH-985": {
       "name": "Passi",
-      "provider": "unknown",
-      "domain": "passicity.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-986": {
@@ -655657,13 +655655,14 @@
     },
     "PL-0251": {
       "name": "Kalisz",
-      "provider": "unknown",
-      "domain": "kalisz.pl",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "schronisko.kalisz.pl",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PL-0252": {
@@ -661883,15 +661882,13 @@
     },
     "PY-068": {
       "name": "Fernando de la Mora",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "fdm.gov.py",
-      "confidence": 95,
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PY-069": {
@@ -676369,13 +676366,14 @@
     },
     "SE-1081": {
       "name": "Ronneby",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "ronneby.se",
-      "confidence": 80,
+      "confidence": 95,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "SE-1082": {
@@ -676517,10 +676515,10 @@
       "name": "Svedala",
       "provider": "microsoft",
       "domain": "svedala.se",
-      "confidence": 95,
+      "confidence": 85,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -676563,8 +676561,9 @@
       "name": "Höör",
       "provider": "microsoft",
       "domain": "hoor.se",
-      "confidence": 75,
+      "confidence": 80,
       "flags": [
+        "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
@@ -693063,13 +693062,13 @@
     },
     "SV-231": {
       "name": "Sonsonate",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "alcaldiadesonsonate.gob.sv",
-      "confidence": 80,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "SV-232": {
@@ -695638,7 +695637,7 @@
     },
     "TH-061": {
       "name": "Satun",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "satun.go.th",
       "confidence": 88,
       "flags": [
@@ -711812,13 +711811,13 @@
     },
     "VE-342": {
       "name": "Sucre",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "alcaldiamunicipiosucre.gov.ve",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "VE-343": {
@@ -717170,12 +717169,13 @@
     },
     "ZW-024": {
       "name": "Hurungwe",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "hurungwerdc.co.zw",
-      "confidence": 50,
+      "confidence": 15,
       "flags": [
+        "no_mx",
         "no_spf",
-        "provider_classified"
+        "provider_unknown"
       ]
     },
     "ZW-025": {
