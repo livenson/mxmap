@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
-<link rel="preconnect" href="https://a.basemaps.cartocdn.com" crossorigin>
-<link rel="preconnect" href="https://b.basemaps.cartocdn.com" crossorigin>
-<link rel="preconnect" href="https://c.basemaps.cartocdn.com" crossorigin>
-<link rel="preconnect" href="https://d.basemaps.cartocdn.com" crossorigin>
+<link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
 <title>MX Map — Email Sovereignty Map</title>
 <meta name="description" content="Interactive map showing where ~23,000 municipalities across 55 countries host their official email, based on DNS analysis of MX, SPF, and DKIM records.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='7' width='28' height='18' rx='2' fill='%231a1a2e'/%3E%3Cpath d='M2 9l14 9 14-9' fill='none' stroke='%2316a34a' stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"></noscript>
 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script defer src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+<script defer src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+<script defer src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.1.4/leaflet-maplibre-gl.js"></script>
+<script defer src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; flex-direction: column; height: 100dvh; overflow: hidden; }
@@ -649,17 +649,23 @@ const map = L.map('map', {
 });
 window._map = map; // expose for debugging
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-  subdomains: 'abcd',
-  maxZoom: 19
-}).addTo(map);
-
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png', {
-  subdomains: 'abcd',
-  maxZoom: 19,
-  pane: 'shadowPane'
-}).addTo(map);
+// Basemap: OpenFreeMap Positron (keyless vector tiles). The style is split in two:
+// base layers render below the municipality polygons, labels in shadowPane above them.
+fetch('https://tiles.openfreemap.org/styles/positron')
+  .then(function (r) { return r.json(); })
+  .then(function (style) {
+    function subStyle(keep) {
+      return Object.assign({}, style, { layers: style.layers.filter(keep) });
+    }
+    L.maplibreGL({
+      style: subStyle(function (l) { return l.type !== 'symbol'; })
+    }).addTo(map);
+    L.maplibreGL({
+      style: subStyle(function (l) { return l.type === 'symbol'; }),
+      pane: 'shadowPane'
+    }).addTo(map);
+  })
+  .catch(function (err) { console.error('Basemap failed to load', err); });
 
 var resizeTimer;
 window.addEventListener('resize', function () {
