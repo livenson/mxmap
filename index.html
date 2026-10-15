@@ -86,6 +86,8 @@
   @media (max-width: 600px) { .stats-countries { grid-template-columns: 1fr; } }
 
   #map { flex: 1; position: relative; width: 100%; will-change: transform; }
+  /* Basemap is display-only; the labels layer sits above the polygons and must not swallow clicks */
+  .leaflet-gl-layer, .leaflet-gl-layer * { pointer-events: none !important; }
 
   .legend {
     background: white; padding: 10px 14px; border-radius: 6px;
@@ -650,7 +652,11 @@ const map = L.map('map', {
 window._map = map; // expose for debugging
 
 // Basemap: OpenFreeMap Positron (keyless vector tiles). The style is split in two:
-// base layers render below the municipality polygons, labels in shadowPane above them.
+// base layers render below the municipality polygons, labels in a dedicated pane above them.
+// The labels pane is non-interactive so clicks reach the polygons underneath.
+var labelsPane = map.createPane('basemapLabels');
+labelsPane.style.zIndex = 450;
+labelsPane.style.pointerEvents = 'none';
 fetch('https://tiles.openfreemap.org/styles/positron')
   .then(function (r) { return r.json(); })
   .then(function (style) {
@@ -662,7 +668,7 @@ fetch('https://tiles.openfreemap.org/styles/positron')
     }).addTo(map);
     L.maplibreGL({
       style: subStyle(function (l) { return l.type === 'symbol'; }),
-      pane: 'shadowPane'
+      pane: 'basemapLabels'
     }).addTo(map);
   })
   .catch(function (err) { console.error('Basemap failed to load', err); });
