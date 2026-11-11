@@ -438,7 +438,7 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     198024: "Istekki",
     16086: "Ratkaisutalo",
     215722: "Lapit Oy",
-    199087: "Kase Oy",
+    199087: "KaseNet Oy",
     29240: "LanMail",
     3238: "Ålands Telekommunikation",
     # Norway
