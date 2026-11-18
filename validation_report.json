@@ -1,7 +1,7 @@
 {
   "total": 61641,
-  "average_score": 83.3,
-  "high_confidence_pct": 84.0,
+  "average_score": 82.9,
+  "high_confidence_pct": 83.5,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -5764,8 +5764,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "AL-61": {
@@ -46373,13 +46372,13 @@
     },
     "AT-62144": {
       "name": "Neuberg an der Mürz",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "neuberg.at",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "AT-62145": {
@@ -61518,8 +61517,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "BA-060": {
@@ -145440,13 +145438,14 @@
     },
     "BY-010": {
       "name": "Bierastavica District",
-      "provider": "unknown",
-      "domain": "berestovitsa.grodno-region.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "berestovitsa.gov.by",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-011": {
@@ -167807,13 +167806,13 @@
     },
     "CA-2512": {
       "name": "Roddickton-Bide Arm",
-      "provider": "unknown",
-      "domain": "roddickton.bidearm.ca",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "nf.aibn.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "CA-2513": {
@@ -179289,13 +179288,14 @@
     },
     "CA-3392": {
       "name": "Sturgis",
-      "provider": "unknown",
-      "domain": "townofsturgis.com",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "sasktel.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "CA-3393": {
@@ -183882,13 +183882,15 @@
     },
     "CA-3742": {
       "name": "Windsor",
-      "provider": "unknown",
+      "provider": "microsoft",
       "domain": "citywindsor.ca",
-      "confidence": 15,
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "CA-3743": {
@@ -207792,7 +207794,7 @@
     },
     "CO-1086": {
       "name": "Yumbo",
-      "provider": "independent",
+      "provider": "microsoft",
       "domain": "yumbo.gov.co",
       "confidence": 90,
       "flags": [
@@ -219503,13 +219505,15 @@
     },
     "CR-077": {
       "name": "Tibás Canton",
-      "provider": "unknown",
+      "provider": "microsoft",
       "domain": "munitibas.go.cr",
-      "confidence": 15,
+      "confidence": 83,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "multi_provider_spf:google+microsoft",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "CR-078": {
@@ -222740,8 +222744,7 @@
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CZ-537454": {
@@ -223108,8 +223111,7 @@
       "flags": [
         "multiple_mx",
         "no_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CZ-552046": {
@@ -223525,8 +223527,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CZ-563510": {
@@ -224023,8 +224024,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CZ-579858": {
@@ -224163,8 +224163,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CZ-583782": {
@@ -376828,14 +376827,13 @@
     },
     "ES-031": {
       "name": "Abajas",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "abajas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-032": {
@@ -377384,14 +377382,13 @@
     },
     "ES-079": {
       "name": "Adrada de Haza",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "adradadehaza.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-080": {
@@ -377556,14 +377553,13 @@
     },
     "ES-094": {
       "name": "Aguas Cándidas",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "aguascandidas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-095": {
@@ -377627,14 +377623,13 @@
     },
     "ES-100": {
       "name": "Aguilar de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "aguilardebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1000": {
@@ -377980,14 +377975,13 @@
     },
     "ES-1027": {
       "name": "Belbimbre",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "belbimbre.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1028": {
@@ -379530,14 +379524,13 @@
     },
     "ES-1148": {
       "name": "Berberana",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "berberana.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1149": {
@@ -379832,14 +379825,13 @@
     },
     "ES-1171": {
       "name": "Berlangas de Roa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "berlangasderoa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1172": {
@@ -380124,14 +380116,13 @@
     },
     "ES-1194": {
       "name": "Berzosa de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "berzosadebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1195": {
@@ -381487,14 +381478,13 @@
     },
     "ES-1303": {
       "name": "Bozoó",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "bozoo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1304": {
@@ -381545,14 +381535,13 @@
     },
     "ES-1308": {
       "name": "Brazacorta",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "brazacorta.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1309": {
@@ -382251,14 +382240,13 @@
     },
     "ES-1365": {
       "name": "Buniel",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "buniel.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1366": {
@@ -383090,14 +383078,13 @@
     },
     "ES-1431": {
       "name": "Cabañes de Esgueva",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cabañesdeesgueva.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1432": {
@@ -383349,14 +383336,13 @@
     },
     "ES-1451": {
       "name": "Cabezón de la Sierra",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cabezondelasierra.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1452": {
@@ -384059,14 +384045,13 @@
     },
     "ES-1508": {
       "name": "Caleruega",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "caleruega.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1509": {
@@ -384760,14 +384745,13 @@
     },
     "ES-1563": {
       "name": "Campillo de Aranda",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "campillodearanda.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1564": {
@@ -385042,14 +385026,13 @@
     },
     "ES-1585": {
       "name": "Campolara",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "campolara.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1586": {
@@ -386327,14 +386310,13 @@
     },
     "ES-1686": {
       "name": "Carcedo de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "carcedodebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1687": {
@@ -386451,14 +386433,13 @@
     },
     "ES-1696": {
       "name": "Cardeñuela Riopico",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cardeñuelariopico.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1697": {
@@ -387553,14 +387534,13 @@
     },
     "ES-1782": {
       "name": "Cascajares de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cascajaresdebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1783": {
@@ -388005,14 +387985,13 @@
     },
     "ES-1818": {
       "name": "Castellanos de Castro",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "castellanosdecastro.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1819": {
@@ -388573,14 +388552,13 @@
     },
     "ES-1862": {
       "name": "Castil de Peones",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "castildepeones.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1863": {
@@ -388622,14 +388600,13 @@
     },
     "ES-1866": {
       "name": "Castildelgado",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "castildelgado.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1867": {
@@ -389004,14 +388981,13 @@
     },
     "ES-1896": {
       "name": "Castrillo Mota de Judíos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "castrillomotadejudios.eu",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1897": {
@@ -389075,14 +389051,13 @@
     },
     "ES-1901": {
       "name": "Castrillo de Riopisuerga",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "castrilloderiopisuerga.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1902": {
@@ -389144,14 +389119,13 @@
     },
     "ES-1907": {
       "name": "Castrillo del Val",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "castrillodelval.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1908": {
@@ -389607,8 +389581,7 @@
       "flags": [
         "spf_softfail",
         "independent_mx_with_cloud_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ES-1943": {
@@ -390123,14 +390096,13 @@
     },
     "ES-1983": {
       "name": "Cebrecos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cebrecos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1984": {
@@ -390272,14 +390244,13 @@
     },
     "ES-1995": {
       "name": "Celada del Camino",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "celadadelcamino.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1996": {
@@ -390579,14 +390550,13 @@
     },
     "ES-202": {
       "name": "Albillos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "albillos.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2020": {
@@ -390740,14 +390710,13 @@
     },
     "ES-2032": {
       "name": "Cerratón de Juarros",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cerratondejuarros.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2033": {
@@ -391552,14 +391521,13 @@
     },
     "ES-2096": {
       "name": "Ciadoncha",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "ciadoncha.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2097": {
@@ -391697,14 +391665,13 @@
     },
     "ES-2108": {
       "name": "Cillaperlata",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cillaperlata.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2109": {
@@ -391991,14 +391958,13 @@
     },
     "ES-2131": {
       "name": "Ciruelos de Cervera",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "ciruelosdecervera.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2132": {
@@ -392405,14 +392371,13 @@
     },
     "ES-2164": {
       "name": "Cogollos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cogollos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2165": {
@@ -392831,14 +392796,13 @@
     },
     "ES-2198": {
       "name": "Condado de Treviño",
-      "provider": "microsoft",
-      "domain": "condadodetrevino.es",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "condadodetreviño.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2199": {
@@ -393685,14 +393649,13 @@
     },
     "ES-2265": {
       "name": "Coruña del Conde",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "xn--coruadelconde-lkb.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2266": {
@@ -394272,14 +394235,13 @@
     },
     "ES-2311": {
       "name": "Cubillo del Campo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cubillodelcampo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2312": {
@@ -394330,14 +394292,13 @@
     },
     "ES-2316": {
       "name": "Cubo de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cubodebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2317": {
@@ -394520,14 +394481,13 @@
     },
     "ES-2330": {
       "name": "Cuevas de San Clemente",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "cuevasdesanclemente.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2331": {
@@ -396821,13 +396781,13 @@
     },
     "ES-2512": {
       "name": "El Hoyo de Pinares",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "elhoyodepinares.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2513": {
@@ -397687,14 +397647,13 @@
     },
     "ES-258": {
       "name": "Alcocero de Mola",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "alcocerodemola.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2580": {
@@ -398600,14 +398559,13 @@
     },
     "ES-2651": {
       "name": "Encío",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "encio.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2652": {
@@ -399533,14 +399491,13 @@
     },
     "ES-2724": {
       "name": "Espinosa de Cervera",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "espinosadecervera.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2725": {
@@ -399591,14 +399548,13 @@
     },
     "ES-2729": {
       "name": "Espinosa del Camino",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "espinosadelcamino.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-273": {
@@ -401166,14 +401122,13 @@
     },
     "ES-2853": {
       "name": "Fontioso",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fontioso.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2854": {
@@ -401531,14 +401486,13 @@
     },
     "ES-2882": {
       "name": "Frandovínez",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "frandovinez.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2883": {
@@ -401706,26 +401660,24 @@
     },
     "ES-2896": {
       "name": "Fresneña",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fresneña.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2897": {
       "name": "Fresnillo de las Dueñas",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fresnillodelasdueñas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2898": {
@@ -401777,26 +401729,24 @@
     },
     "ES-2901": {
       "name": "Fresno de Rodilla",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fresnoderodilla.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2902": {
       "name": "Fresno de Río Tirón",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fresnoderiotiron.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2903": {
@@ -402549,14 +402499,13 @@
     },
     "ES-2961": {
       "name": "Fuentebureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2962": {
@@ -402581,14 +402530,13 @@
     },
     "ES-2964": {
       "name": "Fuentecén",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentecen.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2965": {
@@ -402638,14 +402586,13 @@
     },
     "ES-2969": {
       "name": "Fuentelcésped",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentelcesped.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-297": {
@@ -402706,14 +402653,13 @@
     },
     "ES-2974": {
       "name": "Fuentelisendo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentelisendo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2975": {
@@ -402763,14 +402709,13 @@
     },
     "ES-2979": {
       "name": "Fuentemolinos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentemolinos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-298": {
@@ -402800,14 +402745,13 @@
     },
     "ES-2981": {
       "name": "Fuentenebro",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentenebro.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2982": {
@@ -403180,14 +403124,13 @@
     },
     "ES-3011": {
       "name": "Fuentespina",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentespina.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3012": {
@@ -403518,14 +403461,13 @@
     },
     "ES-3038": {
       "name": "Galbarros",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "galbarros.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3039": {
@@ -405631,14 +405573,13 @@
     },
     "ES-3205": {
       "name": "Grijalba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "grijalba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3206": {
@@ -405655,14 +405596,13 @@
     },
     "ES-3207": {
       "name": "Grisaleña",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "grisalena.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3208": {
@@ -406280,14 +406220,13 @@
     },
     "ES-3256": {
       "name": "Gumiel de Mercado",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "gumieldemercado.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3257": {
@@ -407590,14 +407529,13 @@
     },
     "ES-3359": {
       "name": "Hontanas",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hontanas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-336": {
@@ -407672,38 +407610,35 @@
     },
     "ES-3365": {
       "name": "Hontoria de Valdearados",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hontoriadevaldearados.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3366": {
       "name": "Hontoria de la Cantera",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hontoriadelacantera.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3367": {
       "name": "Hontoria del Pinar",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hontoriadelpinar.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3368": {
@@ -407913,14 +407848,13 @@
     },
     "ES-3384": {
       "name": "Hornillos del Camino",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hornillosdelcamino.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3385": {
@@ -407998,14 +407932,13 @@
     },
     "ES-3390": {
       "name": "Hortigüela",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hortiguela.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3391": {
@@ -408045,14 +407978,13 @@
     },
     "ES-3394": {
       "name": "Hoyales de Roa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hoyalesderoa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3395": {
@@ -408249,14 +408181,13 @@
     },
     "ES-3410": {
       "name": "Huerta de Arriba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "huertadearriba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3411": {
@@ -408399,14 +408330,13 @@
     },
     "ES-3422": {
       "name": "Humada",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "humada.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3423": {
@@ -408447,14 +408377,13 @@
     },
     "ES-3426": {
       "name": "Hurones",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "hurones.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3427": {
@@ -408601,14 +408530,13 @@
     },
     "ES-3438": {
       "name": "Huérmeces",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "huermeces.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3439": {
@@ -408852,14 +408780,13 @@
     },
     "ES-3458": {
       "name": "Ibrillos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "ibrillos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3459": {
@@ -408935,14 +408862,13 @@
     },
     "ES-3464": {
       "name": "Iglesiarrubia",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "iglesiarrubia.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3465": {
@@ -409345,14 +409271,13 @@
     },
     "ES-3496": {
       "name": "Isar",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "isar.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3497": {
@@ -409480,14 +409405,13 @@
     },
     "ES-3507": {
       "name": "Itero del Castillo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "iterodelcastillo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3508": {
@@ -409952,14 +409876,13 @@
     },
     "ES-3544": {
       "name": "Jaramillo de la Fuente",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "jaramillodelafuente.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3545": {
@@ -410415,50 +410338,46 @@
     },
     "ES-3580": {
       "name": "Junta de Traslaloma",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "juntadetraslaloma.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3581": {
       "name": "Junta de Villalba de Losa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "juntadevillalbadelosa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3582": {
       "name": "Jurisdicción de Lara",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "jurisdicciondelara.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3583": {
       "name": "Jurisdicción de San Zadornil",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "jurisdicciondesanzadornil.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3584": {
@@ -411593,14 +411512,13 @@
     },
     "ES-3672": {
       "name": "La Cueva de Roa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "lacuevaderoa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3673": {
@@ -411837,14 +411755,13 @@
     },
     "ES-3691": {
       "name": "La Gallega",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "lagallega.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3692": {
@@ -412148,14 +412065,13 @@
     },
     "ES-3716": {
       "name": "La Horra",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "lahorra.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3717": {
@@ -412843,14 +412759,13 @@
     },
     "ES-377": {
       "name": "Alfoz de Bricia",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "alfozdebricia.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3770": {
@@ -413097,13 +413012,13 @@
     },
     "ES-379": {
       "name": "Alfoz de Quintanadueñas",
-      "provider": "google",
-      "domain": "alfozdequintanaduenas.es",
-      "confidence": 55,
+      "provider": "unknown",
+      "domain": "alfozdequintanadueñas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
+        "no_mx",
         "no_spf",
-        "provider_classified"
+        "provider_unknown"
       ]
     },
     "ES-3790": {
@@ -413382,14 +413297,13 @@
     },
     "ES-3812": {
       "name": "La Revilla y Ahedo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "larevillayahedo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3813": {
@@ -413636,13 +413550,13 @@
     },
     "ES-3832": {
       "name": "La Sequera de Haza",
-      "provider": "local-isp",
-      "domain": "ciudaddefrias.com",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "lasequeradehaza.es",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3833": {
@@ -414144,14 +414058,13 @@
     },
     "ES-3872": {
       "name": "La Vid de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "laviddebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3873": {
@@ -414168,14 +414081,13 @@
     },
     "ES-3874": {
       "name": "La Vid y Barrios",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "lavidybarrios.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3875": {
@@ -415194,14 +415106,13 @@
     },
     "ES-3955": {
       "name": "Las Hormazas",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "lashormazas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-3956": {
@@ -416905,14 +416816,13 @@
     },
     "ES-4090": {
       "name": "Llano de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "llanodebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4091": {
@@ -417722,26 +417632,24 @@
     },
     "ES-4156": {
       "name": "Los Ausines",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "losausines.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4157": {
       "name": "Los Balbases",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "losbalbases.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4158": {
@@ -417759,14 +417667,13 @@
     },
     "ES-4159": {
       "name": "Los Barrios de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "losbarriosdebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-416": {
@@ -419021,14 +418928,13 @@
     },
     "ES-4258": {
       "name": "Madrigal del Monte",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "madrigaldelmonte.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4259": {
@@ -419054,14 +418960,13 @@
     },
     "ES-4260": {
       "name": "Madrigalejo del Monte",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "madrigalejodelmonte.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4261": {
@@ -419643,26 +419548,24 @@
     },
     "ES-4308": {
       "name": "Mambrilla de Castrejón",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "mambrilladecastrejon.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4309": {
       "name": "Mambrillas de Lara",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "mambrillasdelara.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-431": {
@@ -419678,14 +419581,13 @@
     },
     "ES-4310": {
       "name": "Mamolar",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "mamolar.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4311": {
@@ -419760,14 +419662,13 @@
     },
     "ES-4317": {
       "name": "Manciles",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "manciles.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4318": {
@@ -421471,14 +421372,13 @@
     },
     "ES-4453": {
       "name": "Mecerreyes",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "mecerreyes.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4454": {
@@ -422122,26 +422022,24 @@
     },
     "ES-4504": {
       "name": "Merindad de Cuesta-Urria",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "merindaddecuestaurria.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4505": {
       "name": "Merindad de Montija",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "merindaddemontija.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4506": {
@@ -422157,24 +422055,24 @@
     },
     "ES-4507": {
       "name": "Merindad de Sotoscueva",
-      "provider": "local-isp",
-      "domain": "merindaddesotoscueva.org",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "merindaddesotoscueva.es",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4508": {
       "name": "Merindad de Valdeporres",
-      "provider": "local-isp",
-      "domain": "valdeporres.com",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "merindaddevaldeporres.es",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4509": {
@@ -422533,14 +422431,13 @@
     },
     "ES-4537": {
       "name": "Milagros",
-      "provider": "local-isp",
-      "domain": "aytomilagros.es",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "milagros.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4538": {
@@ -423476,14 +423373,13 @@
     },
     "ES-4611": {
       "name": "Monasterio de Rodilla",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "monasterioderodilla.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4612": {
@@ -423522,14 +423418,13 @@
     },
     "ES-4615": {
       "name": "Moncalvillo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "moncalvillo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4616": {
@@ -424553,14 +424448,13 @@
     },
     "ES-4696": {
       "name": "Monterrubio de la Demanda",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "monterrubiodelademanda.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4697": {
@@ -424821,14 +424715,13 @@
     },
     "ES-4717": {
       "name": "Montorio",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "montorio.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4718": {
@@ -425055,14 +424948,13 @@
     },
     "ES-4735": {
       "name": "Moradillo de Roa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "moradilloderoa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4736": {
@@ -426971,14 +426863,13 @@
     },
     "ES-4887": {
       "name": "Nava de Roa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "navaderoa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4888": {
@@ -427657,14 +427548,13 @@
     },
     "ES-4941": {
       "name": "Navas de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "navasdebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4942": {
@@ -427916,14 +427806,13 @@
     },
     "ES-4962": {
       "name": "Nebreda",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "nebreda.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-4963": {
@@ -429237,8 +429126,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ES-5067": {
@@ -429556,14 +429444,13 @@
     },
     "ES-5091": {
       "name": "Olmedillo de Roa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "olmedilloderoa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5092": {
@@ -429603,14 +429490,13 @@
     },
     "ES-5095": {
       "name": "Olmillos de Muñó",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "olmillosdemuño.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5096": {
@@ -430013,14 +429899,13 @@
     },
     "ES-5127": {
       "name": "Oquillas",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "oquillas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5128": {
@@ -430058,14 +429943,13 @@
     },
     "ES-5130": {
       "name": "Orbaneja Riopico",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "orbanejariopico.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5131": {
@@ -431072,26 +430956,24 @@
     },
     "ES-5210": {
       "name": "Padilla de Abajo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "padilladeabajo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5211": {
       "name": "Padilla de Arriba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "padilladearriba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5212": {
@@ -431106,14 +430988,13 @@
     },
     "ES-5213": {
       "name": "Padrones de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "padronesdebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5214": {
@@ -431268,14 +431149,13 @@
     },
     "ES-5226": {
       "name": "Palacios de Riopisuerga",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "palaciosderiopisuerga.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5227": {
@@ -431520,26 +431400,24 @@
     },
     "ES-5246": {
       "name": "Palazuelos de Muñó",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "palazuelosdemuño.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5247": {
       "name": "Palazuelos de la Sierra",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "palazuelosdelasierra.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5248": {
@@ -431948,14 +431826,13 @@
     },
     "ES-528": {
       "name": "Altable",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "altable.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5280": {
@@ -432103,14 +431980,13 @@
     },
     "ES-5291": {
       "name": "Pardilla",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pardilla.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5292": {
@@ -432809,26 +432685,24 @@
     },
     "ES-5347": {
       "name": "Pedrosa de Duero",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pedrosadeduero.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5348": {
       "name": "Pedrosa de Río Urbel",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pedrosaderiourbel.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5349": {
@@ -432867,14 +432741,13 @@
     },
     "ES-5351": {
       "name": "Pedrosa del Páramo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pedrosadelparamo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5352": {
@@ -433215,14 +433088,13 @@
     },
     "ES-5379": {
       "name": "Peral de Arlanza",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "peraldearlanza.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-538": {
@@ -433935,14 +433807,13 @@
     },
     "ES-5435": {
       "name": "Peñaranda de Duero",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "peñarandadeduero.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5436": {
@@ -434299,14 +434170,13 @@
     },
     "ES-5464": {
       "name": "Pineda Trasmonte",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pinedatrasmonte.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5465": {
@@ -434336,14 +434206,13 @@
     },
     "ES-5467": {
       "name": "Pineda de la Sierra",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pinedadelasierra.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5468": {
@@ -434394,14 +434263,13 @@
     },
     "ES-5471": {
       "name": "Pinilla Trasmonte",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pinillatrasmonte.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5472": {
@@ -435003,14 +434871,13 @@
     },
     "ES-552": {
       "name": "Ameyugo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "ameyugo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5520": {
@@ -436535,14 +436402,13 @@
     },
     "ES-5640": {
       "name": "Presencio",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "presencio.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5641": {
@@ -436624,14 +436490,13 @@
     },
     "ES-5648": {
       "name": "Prádanos de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "pradanosdebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5649": {
@@ -437219,14 +437084,13 @@
     },
     "ES-5693": {
       "name": "Puentedura",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "puentedura.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5694": {
@@ -438179,14 +438043,13 @@
     },
     "ES-5769": {
       "name": "Rebolledo de la Torre",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "rebolledodelatorre.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-577": {
@@ -438248,14 +438111,13 @@
     },
     "ES-5774": {
       "name": "Redecilla del Camino",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "redecilladelcamino.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5775": {
@@ -438818,14 +438680,13 @@
     },
     "ES-5819": {
       "name": "Rezmondo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "rezmondo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-582": {
@@ -439329,14 +439190,13 @@
     },
     "ES-586": {
       "name": "Anguix",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "anguix.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5860": {
@@ -439421,14 +439281,13 @@
     },
     "ES-5867": {
       "name": "Riocavado de la Sierra",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "riocavadodelasierra.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5868": {
@@ -440541,14 +440400,13 @@
     },
     "ES-5955": {
       "name": "Royuela de Río Franco",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "royuelariofranco.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5956": {
@@ -440590,14 +440448,13 @@
     },
     "ES-5959": {
       "name": "Rubena",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "rubena.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-596": {
@@ -440718,14 +440575,13 @@
     },
     "ES-5969": {
       "name": "Rucandio",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "rucandio.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-597": {
@@ -440938,14 +440794,13 @@
     },
     "ES-5986": {
       "name": "Rábanos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "rabanos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-5987": {
@@ -441485,14 +441340,13 @@
     },
     "ES-6029": {
       "name": "Saldaña de Burgos",
-      "provider": "microsoft",
-      "domain": "hotmail.com",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "saldañadeburgos.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-603": {
@@ -441671,14 +441525,13 @@
     },
     "ES-6043": {
       "name": "Salinillas de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "salinillasdebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6044": {
@@ -442086,14 +441939,13 @@
     },
     "ES-6076": {
       "name": "San Adrián de Juarros",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sanadriandejuarros.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6077": {
@@ -442128,8 +441980,7 @@
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ES-608": {
@@ -442801,13 +442652,13 @@
     },
     "ES-6133": {
       "name": "San Juan de la Encinilla",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "san-juan-de-la-encinilla.com",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6134": {
@@ -442846,14 +442697,13 @@
     },
     "ES-6137": {
       "name": "San Juan del Monte",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sanjuandelmonte.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6138": {
@@ -442984,14 +442834,13 @@
     },
     "ES-6148": {
       "name": "San Mamés de Burgos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sanmamesdeburgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6149": {
@@ -443053,14 +442902,13 @@
     },
     "ES-6153": {
       "name": "San Martín de Rubiales",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sanmartinderubiales.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6154": {
@@ -443412,14 +443260,13 @@
     },
     "ES-6181": {
       "name": "San Millán de Lara",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sanmillandelara.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6182": {
@@ -444045,14 +443892,13 @@
     },
     "ES-6231": {
       "name": "San Vicente del Valle",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sanvicentedelvalle.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6232": {
@@ -444146,14 +443992,13 @@
     },
     "ES-624": {
       "name": "Arandilla",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "arandilla.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6240": {
@@ -445672,14 +445517,13 @@
     },
     "ES-636": {
       "name": "Arauzo de Miel",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "arauzodemiel.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6360": {
@@ -445801,14 +445645,13 @@
     },
     "ES-637": {
       "name": "Arauzo de Salce",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "arauzodesalce.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6370": {
@@ -445925,14 +445768,13 @@
     },
     "ES-638": {
       "name": "Arauzo de Torre",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "arauzodetorre.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6380": {
@@ -446103,14 +445945,13 @@
     },
     "ES-6393": {
       "name": "Santa Cruz de la Salceda",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santacruzdelasalceda.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6394": {
@@ -446205,13 +446046,13 @@
     },
     "ES-6401": {
       "name": "Santa Cruz del Valle Urbión",
-      "provider": "independent",
-      "domain": "cgt.es",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "santacruzdelvalleurbion.es",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6402": {
@@ -446451,26 +446292,24 @@
     },
     "ES-6420": {
       "name": "Santa Gadea del Cid",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santagadeadelcid.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6421": {
       "name": "Santa Inés",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santaines.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6422": {
@@ -446712,14 +446551,13 @@
     },
     "ES-6440": {
       "name": "Santa María Rivarredonda",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santamariaribarredonda.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6441": {
@@ -446906,14 +446744,13 @@
     },
     "ES-6456": {
       "name": "Santa María del Campo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santamariadelcampo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6457": {
@@ -446941,14 +446778,13 @@
     },
     "ES-6459": {
       "name": "Santa María del Invierno",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santamariadelinvierno.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-646": {
@@ -446963,14 +446799,13 @@
     },
     "ES-6460": {
       "name": "Santa María del Mercadillo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santamariadelmercadillo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6461": {
@@ -447042,14 +446877,13 @@
     },
     "ES-6467": {
       "name": "Santa Olalla de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santaolalladebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6468": {
@@ -447409,14 +447243,13 @@
     },
     "ES-6496": {
       "name": "Santibáñez de Esgueva",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santibañezdeesgueva.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6497": {
@@ -447492,14 +447325,13 @@
     },
     "ES-6502": {
       "name": "Santibáñez del Val",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santibañezdelval.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6503": {
@@ -447679,14 +447511,13 @@
     },
     "ES-6517": {
       "name": "Santo Domingo de Silos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santodomingodesilos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6518": {
@@ -447980,14 +447811,13 @@
     },
     "ES-6540": {
       "name": "Sargentes de la Lora",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sargentesdelalora.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6541": {
@@ -449758,14 +449588,13 @@
     },
     "ES-6680": {
       "name": "Solarana",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "solarana.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6681": {
@@ -450080,14 +449909,13 @@
     },
     "ES-6705": {
       "name": "Sordillos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sordillos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6706": {
@@ -450489,14 +450317,13 @@
     },
     "ES-6738": {
       "name": "Sotresgudo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "sotresgudo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6739": {
@@ -450670,14 +450497,13 @@
     },
     "ES-6752": {
       "name": "Susinos del Páramo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "susinosdelparamo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6753": {
@@ -450762,14 +450588,13 @@
     },
     "ES-676": {
       "name": "Arenillas de Riopisuerga",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "arenillasderiopisuerga.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6760": {
@@ -451330,14 +451155,13 @@
     },
     "ES-6804": {
       "name": "Tardajos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "tardajos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6805": {
@@ -451609,14 +451433,13 @@
     },
     "ES-6826": {
       "name": "Tejada",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "tejada.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6827": {
@@ -451857,14 +451680,13 @@
     },
     "ES-6845": {
       "name": "Terradillos de Esgueva",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "terradillosdeesgueva.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6846": {
@@ -452134,14 +451956,13 @@
     },
     "ES-6867": {
       "name": "Tinieblas de la Sierra",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "tinieblasdelasierra.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6868": {
@@ -452270,14 +452091,13 @@
     },
     "ES-6878": {
       "name": "Tobar",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "tobar.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6879": {
@@ -453471,14 +453291,13 @@
     },
     "ES-6971": {
       "name": "Torrecilla del Monte",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "torrecilladelmonte.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6972": {
@@ -453635,14 +453454,13 @@
     },
     "ES-6984": {
       "name": "Torregalindo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "torregalindo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6985": {
@@ -453842,26 +453660,24 @@
     },
     "ES-7000": {
       "name": "Torrelara",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "torrelara.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7001": {
       "name": "Torrelavega",
-      "provider": "microsoft",
-      "domain": "aytotorrelavega.es",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "torrelavega.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7002": {
@@ -454211,14 +454027,13 @@
     },
     "ES-7029": {
       "name": "Torrepadre",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "torrepadre.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-703": {
@@ -454399,14 +454214,13 @@
     },
     "ES-7043": {
       "name": "Torresandino",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "torresandino.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7044": {
@@ -454712,14 +454526,13 @@
     },
     "ES-7068": {
       "name": "Tosantos",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "tosantos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7069": {
@@ -455375,14 +455188,13 @@
     },
     "ES-7120": {
       "name": "Tubilla del Agua",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "tubilladelagua.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7121": {
@@ -455873,14 +455685,13 @@
     },
     "ES-716": {
       "name": "Arlanzón",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "arlanzon.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7160": {
@@ -456821,14 +456632,13 @@
     },
     "ES-7234": {
       "name": "Valdeande",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valdeande.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7235": {
@@ -457967,14 +457777,13 @@
     },
     "ES-7324": {
       "name": "Valdorros",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valdorros.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7325": {
@@ -458349,14 +458158,13 @@
     },
     "ES-7354": {
       "name": "Vallarta de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "vallartadebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7355": {
@@ -458539,14 +458347,13 @@
     },
     "ES-7369": {
       "name": "Valle de Losa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valledelosa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-737": {
@@ -458562,14 +458369,13 @@
     },
     "ES-7370": {
       "name": "Valle de Manzanedo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valledemanzanedo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7371": {
@@ -458623,14 +458429,13 @@
     },
     "ES-7375": {
       "name": "Valle de Santibáñez",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "xn--valledesantibaez-kub.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7376": {
@@ -458690,38 +458495,35 @@
     },
     "ES-7380": {
       "name": "Valle de Valdebezana",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valledevaldebezana.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7381": {
       "name": "Valle de Valdelaguna",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valledevaldelaguna.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7382": {
       "name": "Valle de Valdelucio",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valledevaldelucio.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7383": {
@@ -458845,14 +458647,13 @@
     },
     "ES-7392": {
       "name": "Vallejera",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "vallejera.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7393": {
@@ -458905,14 +458706,13 @@
     },
     "ES-7397": {
       "name": "Valles de Palenzuela",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "vallesdepalenzuela.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7398": {
@@ -459106,14 +458906,13 @@
     },
     "ES-7412": {
       "name": "Valluércanes",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valluercanes.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7413": {
@@ -459139,14 +458938,13 @@
     },
     "ES-7415": {
       "name": "Valmala",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "valmala.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7416": {
@@ -461474,14 +461272,13 @@
     },
     "ES-7599": {
       "name": "Vileña",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "xn--vilea-rta.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-760": {
@@ -462001,38 +461798,35 @@
     },
     "ES-7640": {
       "name": "Villaescusa de Roa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villaescusaderoa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7641": {
       "name": "Villaescusa la Sombría",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villaescusalasombria.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7642": {
       "name": "Villaespasa",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villaespasa.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7643": {
@@ -462230,14 +462024,13 @@
     },
     "ES-7659": {
       "name": "Villafruela",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villafruela.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-766": {
@@ -462474,14 +462267,13 @@
     },
     "ES-7678": {
       "name": "Villahoz",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villahoz.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7679": {
@@ -462720,25 +462512,24 @@
     },
     "ES-7697": {
       "name": "Villalbilla de Burgos",
-      "provider": "local-isp",
-      "domain": "villalbilladeburgos.com",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "villalbilladeburgos.burgos.es",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7698": {
       "name": "Villalbilla de Gumiel",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villalbilladegumiel.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7699": {
@@ -462801,14 +462592,13 @@
     },
     "ES-7703": {
       "name": "Villaldemiro",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villaldemiro.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7704": {
@@ -463252,14 +463042,13 @@
     },
     "ES-7739": {
       "name": "Villamayor de Treviño",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "xn--villamayordetrevio-30b.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-774": {
@@ -463276,14 +463065,13 @@
     },
     "ES-7740": {
       "name": "Villamayor de los Montes",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villamayordelosmontes.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7741": {
@@ -463299,14 +463087,13 @@
     },
     "ES-7742": {
       "name": "Villambistia",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villambistia.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7743": {
@@ -463334,14 +463121,13 @@
     },
     "ES-7745": {
       "name": "Villamedianilla",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villamedianilla.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7746": {
@@ -463569,14 +463355,13 @@
     },
     "ES-7763": {
       "name": "Villangómez",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villangomez.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7764": {
@@ -463732,14 +463517,13 @@
     },
     "ES-7776": {
       "name": "Villanueva de Carazo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villanuevadecarazo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7777": {
@@ -463803,14 +463587,13 @@
     },
     "ES-7781": {
       "name": "Villanueva de Gumiel",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villanuevadegumiel.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7782": {
@@ -463938,14 +463721,13 @@
     },
     "ES-7792": {
       "name": "Villanueva de Teba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villanuevadeteba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7793": {
@@ -464499,26 +464281,24 @@
     },
     "ES-7837": {
       "name": "Villaquirán de la Puebla",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villaquirandelapuebla.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7838": {
       "name": "Villaquirán de los Infantes",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villaquirandelosinfantes.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7839": {
@@ -465571,14 +465351,13 @@
     },
     "ES-7920": {
       "name": "Villasandino",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villasandino.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7921": {
@@ -465866,14 +465645,13 @@
     },
     "ES-7944": {
       "name": "Villatuelda",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villatuelda.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7945": {
@@ -466118,14 +465896,13 @@
     },
     "ES-7964": {
       "name": "Villaverde-Mogina",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villaverdemogina.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7965": {
@@ -466245,14 +466022,13 @@
     },
     "ES-7974": {
       "name": "Villayerno Morquillas",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villayernomorquillas.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7975": {
@@ -466457,14 +466233,13 @@
     },
     "ES-7990": {
       "name": "Villoruebo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "villoruebo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7991": {
@@ -468164,14 +467939,13 @@
     },
     "ES-8124": {
       "name": "Zarzosa de Río Pisuerga",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "zarzosaderiopisuerga.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-8125": {
@@ -469008,14 +468782,13 @@
     },
     "ES-8190": {
       "name": "Úrbel del Castillo",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "urbeldelcastillo.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-8191": {
@@ -471017,14 +470790,13 @@
     },
     "ES-916": {
       "name": "Barbadillo de Herreros",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "barbadillodeherreros.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-917": {
@@ -471040,14 +470812,13 @@
     },
     "ES-918": {
       "name": "Barbadillo del Pez",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "barbadillodelpez.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-919": {
@@ -471438,14 +471209,13 @@
     },
     "ES-952": {
       "name": "Barrio de Muñó",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "barriodemuño.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-953": {
@@ -471641,14 +471411,13 @@
     },
     "ES-970": {
       "name": "Bascuñana",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "bascuñana.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-971": {
@@ -471895,14 +471664,13 @@
     },
     "ES-992": {
       "name": "Baños de Valdearados",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "banosdevaldearados.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-993": {
@@ -471931,14 +471699,13 @@
     },
     "ES-995": {
       "name": "Bañuelos de Bureba",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "bañuelosdebureba.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-996": {
@@ -478794,13 +478561,13 @@
     },
     "FR-08105": {
       "name": "Charleville-Mézières",
-      "provider": "unknown",
-      "domain": "charleville-mezieres.fr",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "mairie-charlevillemezieres.fr",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "FR-09": {
@@ -505161,8 +504928,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "HR-101": {
@@ -506172,8 +505938,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "HR-191": {
@@ -511203,8 +510968,7 @@
       "confidence": 50,
       "flags": [
         "no_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "HU-036": {
@@ -520777,8 +520541,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "IR-016": {
@@ -524943,8 +524706,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "KE-031": {
@@ -528221,13 +527983,13 @@
     },
     "KR-093": {
       "name": "Jangheung County",
-      "provider": "independent",
-      "domain": "korea.kr",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "jangheung.go.kr",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-094": {
@@ -533193,8 +532955,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "LU-0214": {
@@ -533568,8 +533329,7 @@
       "flags": [
         "spf_softfail",
         "independent_mx_with_cloud_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "LU-0605": {
@@ -552449,8 +552209,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "MK-011": {
@@ -641780,24 +641539,24 @@
     },
     "PH-136": {
       "name": "Bangued",
-      "provider": "unknown",
-      "domain": "bangued.gov.ph",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "email.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1360": {
       "name": "Tagudin",
-      "provider": "unknown",
-      "domain": "tagudin.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-1361": {
@@ -646874,13 +646633,13 @@
     },
     "PH-457": {
       "name": "Estancia",
-      "provider": "unknown",
-      "domain": "estancia.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-458": {
@@ -647492,13 +647251,13 @@
     },
     "PH-511": {
       "name": "Hagonoy",
-      "provider": "unknown",
-      "domain": "hagonoy.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-512": {
@@ -667111,13 +666870,13 @@
     },
     "RU-013": {
       "name": "Chukotka Autonomous Okrug",
-      "provider": "unknown",
-      "domain": "чукотка.рф",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "chukotka-gov.ru",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "RU-014": {
@@ -667471,8 +667230,7 @@
       "confidence": 85,
       "flags": [
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "RU-046": {
@@ -679004,8 +678762,7 @@
       "confidence": 50,
       "flags": [
         "no_spf",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "SG-002": {
@@ -712427,12 +712184,13 @@
     },
     "VN-023": {
       "name": "Thanh Hóa",
-      "provider": "independent",
-      "domain": "thanhhoa.gov.vn",
-      "confidence": 85,
+      "provider": "unknown",
+      "domain": "en-us.thanhhoa.gov.vn",
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "VN-024": {
@@ -712454,8 +712212,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "VN-026": {
@@ -712466,8 +712223,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "VN-027": {
@@ -713666,8 +713422,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ZA-022": {
@@ -714310,8 +714065,7 @@
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ZA-077": {
