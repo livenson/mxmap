@@ -1,7 +1,7 @@
 {
   "total": 61641,
   "average_score": 82.8,
-  "high_confidence_pct": 83.5,
+  "high_confidence_pct": 83.4,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -113639,13 +113639,14 @@
     },
     "BR-3485": {
       "name": "Palma Sola",
-      "provider": "unknown",
-      "domain": "palmasola.atende.net",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "palmasola.sc.gov.br",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-3486": {
@@ -145439,13 +145440,14 @@
     },
     "BY-010": {
       "name": "Bierastavica District",
-      "provider": "unknown",
-      "domain": "berestovitsa.grodno-region.by",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "berestovitsa.gov.by",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BY-011": {
@@ -198013,8 +198015,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "CL-061": {
@@ -388354,7 +388355,7 @@
     },
     "ES-1846": {
       "name": "Castellote",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "castellote.es",
       "confidence": 93,
       "flags": [
@@ -389093,14 +389094,13 @@
     },
     "ES-1904": {
       "name": "Castrillo de la Reina",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "castrillodelareina.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-1905": {
@@ -394071,7 +394071,7 @@
     },
     "ES-2298": {
       "name": "Cualedro",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "cualedro.es",
       "confidence": 88,
       "flags": [
@@ -399316,14 +399316,13 @@
     },
     "ES-271": {
       "name": "Alconada",
-      "provider": "microsoft",
-      "domain": "hotmail.es",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "alconada.es",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-2710": {
@@ -402595,14 +402594,13 @@
     },
     "ES-2969": {
       "name": "Fuentelcésped",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "fuentelcesped.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-297": {
@@ -409674,7 +409672,7 @@
     },
     "ES-3527": {
       "name": "Izurtza",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "izurtza.eus",
       "confidence": 50,
       "flags": [
@@ -427894,7 +427892,7 @@
     },
     "ES-4969": {
       "name": "Neila",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "villaneila.com",
       "confidence": 88,
       "flags": [
@@ -441991,8 +441989,7 @@
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ES-608": {
@@ -445551,14 +445548,13 @@
     },
     "ES-6361": {
       "name": "Santa Cecilia",
-      "provider": "google",
-      "domain": "diputaciondeburgos.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "santacecilia.burgos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6362": {
@@ -451878,13 +451874,13 @@
     },
     "ES-686": {
       "name": "Arevalillo",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "arevalillo.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6860": {
@@ -452092,13 +452088,13 @@
     },
     "ES-6877": {
       "name": "Tiñosillos",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "tinosillos.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6878": {
@@ -452184,13 +452180,13 @@
     },
     "ES-6884": {
       "name": "Tolbaños",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "tolbanos.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-6885": {
@@ -454572,13 +454568,13 @@
     },
     "ES-7070": {
       "name": "Tosos",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "tosos.org",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7071": {
@@ -455884,13 +455880,13 @@
     },
     "ES-7174": {
       "name": "Umbrías",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "umbrias.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7175": {
@@ -456440,14 +456436,13 @@
     },
     "ES-7218": {
       "name": "Vadillo de la Sierra",
-      "provider": "microsoft",
-      "domain": "outlook.com",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "vadillodelasierra.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7219": {
@@ -459488,13 +459483,13 @@
     },
     "ES-7458": {
       "name": "Vega de Santa María",
-      "provider": "local-isp",
-      "domain": "diputaciondeavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "vegadesantamaria.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7459": {
@@ -459744,13 +459739,13 @@
     },
     "ES-7478": {
       "name": "Velayos",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "velayos.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7479": {
@@ -461864,12 +461859,13 @@
     },
     "ES-7645": {
       "name": "Villaflor",
-      "provider": "independent",
-      "domain": "yahoo.es",
-      "confidence": 85,
+      "provider": "unknown",
+      "domain": "villaflor.es",
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7646": {
@@ -461965,13 +461961,13 @@
     },
     "ES-7653": {
       "name": "Villafranca de la Sierra",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "villafrancadelasierra.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7654": {
@@ -463621,13 +463617,13 @@
     },
     "ES-7783": {
       "name": "Villanueva de Gómez",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "villanuevadegomez.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7784": {
@@ -463984,24 +463980,24 @@
     },
     "ES-7812": {
       "name": "Villanueva de Ávila",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "villanuevadeavila.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7813": {
       "name": "Villanueva del Aceral",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "villanuevadelaceral.es",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7814": {
@@ -464030,14 +464026,13 @@
     },
     "ES-7816": {
       "name": "Villanueva del Campillo",
-      "provider": "microsoft",
-      "domain": "hotmail.com",
-      "confidence": 95,
+      "provider": "unknown",
+      "domain": "villanuevadelcampillo.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7817": {
@@ -464362,13 +464357,13 @@
     },
     "ES-7842": {
       "name": "Villar de Corneja",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "villardecorneja.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-7843": {
@@ -467637,7 +467632,7 @@
     },
     "ES-810": {
       "name": "Atzeneta d'Albaida",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "atzenetadalbaida.com",
       "confidence": 90,
       "flags": [
@@ -467739,13 +467734,13 @@
     },
     "ES-8108": {
       "name": "Zapardiel de la Cañada",
-      "provider": "local-isp",
-      "domain": "diputacionavila.es",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "zapardieldelacanada.es",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-8109": {
@@ -468115,7 +468110,7 @@
     },
     "ES-8137": {
       "name": "Zigoitia",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "zigoitia.es",
       "confidence": 90,
       "flags": [
@@ -471268,12 +471263,13 @@
     },
     "ES-956": {
       "name": "Barromán",
-      "provider": "independent",
-      "domain": "yahoo.es",
-      "confidence": 85,
+      "provider": "unknown",
+      "domain": "barroman.es",
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "ES-957": {
@@ -478573,11 +478569,11 @@
     },
     "FR-08105": {
       "name": "Charleville-Mézières",
-      "provider": "local-isp",
-      "domain": "mairie-charlevillemezieres.fr",
+      "provider": "google",
+      "domain": "gmail.com",
       "confidence": 90,
       "flags": [
-        "spf_strict",
+        "multiple_mx",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -520553,7 +520549,8 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "IR-016": {
@@ -527045,14 +527042,13 @@
     },
     "KR-006": {
       "name": "Boryeong",
-      "provider": "independent",
-      "domain": "hanmail.net",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "brcn.go.kr",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-007": {
@@ -527101,13 +527097,13 @@
     },
     "KR-011": {
       "name": "Buk District",
-      "provider": "independent",
-      "domain": "cosmo.or.kr",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "bukgu.ulsan.kr",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-012": {
@@ -528181,9 +528177,10 @@
       "name": "Mokpo",
       "provider": "independent",
       "domain": "mokpo.go.kr",
-      "confidence": 50,
+      "confidence": 88,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -528817,13 +528814,13 @@
     },
     "KR-169": {
       "name": "Ulju County",
-      "provider": "independent",
-      "domain": "korea.kr",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "ulju.ulsan.kr",
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-170": {
@@ -556463,7 +556460,8 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "MX-044": {
@@ -569893,13 +569891,13 @@
     },
     "MX-1991": {
       "name": "Tapalapa Municipality",
-      "provider": "unknown",
-      "domain": "tapalapa.gob.mx",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "MX-1992": {
@@ -649039,13 +649037,13 @@
     },
     "PH-667": {
       "name": "Leon",
-      "provider": "unknown",
-      "domain": "leon.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-668": {
@@ -649287,13 +649285,13 @@
     },
     "PH-689": {
       "name": "Liloy",
-      "provider": "unknown",
-      "domain": "liloy.gov.ph",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PH-690": {
@@ -659263,7 +659261,7 @@
     },
     "PT-0166": {
       "name": "Sobral de Monte Agraço",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "cm-sobral-monte-agraco.pt",
       "confidence": 90,
       "flags": [
@@ -667093,9 +667091,8 @@
       "name": "Khanty-Mansi Autonomous Okrug",
       "provider": "independent",
       "domain": "admhmao.ru",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
-        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -691651,14 +691648,14 @@
     },
     "SV-111": {
       "name": "Metapán",
-      "provider": "microsoft",
+      "provider": "google",
       "domain": "santaananorte.gob.sv",
-      "confidence": 93,
+      "confidence": 78,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "multi_provider_spf:google+microsoft",
+        "provider_classified"
       ]
     },
     "SV-112": {
@@ -712515,13 +712512,15 @@
     },
     "XK-002": {
       "name": "Dragash Municipality",
-      "provider": "unknown",
-      "domain": "dragash.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-003": {
@@ -712537,13 +712536,13 @@
     },
     "XK-004": {
       "name": "Elez Han Municipality",
-      "provider": "unknown",
-      "domain": "haniielezit.rks-gov.net",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "XK-005": {
@@ -714648,9 +714647,8 @@
       "name": "Mtubatuba Local Municipality",
       "provider": "independent",
       "domain": "mtubatuba.gov.za",
-      "confidence": 93,
+      "confidence": 88,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -715004,13 +715002,15 @@
     },
     "ZA-155": {
       "name": "Raymond Mhlaba Local Municipality",
-      "provider": "independent",
+      "provider": "microsoft",
       "domain": "raymondmhlaba.gov.za",
-      "confidence": 90,
+      "confidence": 100,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "ZA-156": {
