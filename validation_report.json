@@ -1,7 +1,7 @@
 {
   "total": 61641,
   "average_score": 82.8,
-  "high_confidence_pct": 83.5,
+  "high_confidence_pct": 83.4,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -76579,7 +76579,7 @@
     },
     "BJ-064": {
       "name": "Savé",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "sav.bj",
       "confidence": 88,
       "flags": [
@@ -145455,14 +145455,13 @@
     },
     "BY-010": {
       "name": "Bierastavica District",
-      "provider": "local-isp",
-      "domain": "berestovitsa.gov.by",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "berestovitsa.grodno-region.by",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BY-011": {
@@ -199990,7 +199989,7 @@
     "CL-229": {
       "name": "Placilla",
       "provider": "independent",
-      "domain": "placilla.cl",
+      "domain": "municipalidadplacilla.cl",
       "confidence": 88,
       "flags": [
         "spf_softfail",
@@ -245737,13 +245736,13 @@
     },
     "DE-03452010": {
       "name": "Halbemond",
-      "provider": "unknown",
-      "domain": "halbemond.de",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "DE-03452011": {
@@ -337566,13 +337565,13 @@
     },
     "DE-14627160": {
       "name": "Nauwalde",
-      "provider": "unknown",
-      "domain": "nauwalde.de",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "gmail.com",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "DE-14627170": {
@@ -442054,7 +442053,8 @@
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "ES-608": {
@@ -514965,13 +514965,13 @@
     },
     "ID-202": {
       "name": "Langsa",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "langsakota.go.id",
-      "confidence": 15,
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ID-203": {
@@ -524948,13 +524948,13 @@
     },
     "KE-043": {
       "name": "Turkana County",
-      "provider": "unknown",
+      "provider": "local-isp",
       "domain": "turkana.go.ke",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "KE-044": {
@@ -527342,14 +527342,13 @@
     },
     "KR-025": {
       "name": "Dalseo District",
-      "provider": "independent",
-      "domain": "naver.com",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "dalseo.daegu.kr",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KR-026": {
@@ -556200,7 +556199,7 @@
     },
     "MX-013": {
       "name": "Acapetahua Municipality",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "acapetahua.gob.mx",
       "confidence": 88,
       "flags": [
@@ -559430,14 +559429,13 @@
     },
     "MX-1177": {
       "name": "Pahuatlán Municipality",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "pahuatlan.gob.mx",
+      "confidence": 88,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "MX-1178": {
@@ -559814,13 +559812,11 @@
       "name": "Peto",
       "provider": "independent",
       "domain": "peto.gob.mx",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
-        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_classified"
       ]
     },
     "MX-1209": {
@@ -571804,13 +571800,13 @@
     },
     "MX-2136": {
       "name": "Ticul",
-      "provider": "independent",
-      "domain": "ticul.mx",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "ticul.gob.mx",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "MX-2137": {
@@ -572086,13 +572082,14 @@
     },
     "MX-2159": {
       "name": "Tlachichuca Municipality",
-      "provider": "independent",
-      "domain": "tlachichuca.gob.mx",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "",
+      "confidence": 0,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_domain",
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "MX-216": {
@@ -580291,10 +580288,9 @@
       "name": "General Plutarco Elías Calles Municipality",
       "provider": "independent",
       "domain": "sonoyta.gob.mx",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -581903,9 +581899,10 @@
       "name": "Ixhuatlancillo",
       "provider": "independent",
       "domain": "ixhuatlancillo.gob.mx",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -612831,13 +612828,13 @@
     },
     "PE-022": {
       "name": "Acora District",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "muniacora.gob.pe",
-      "confidence": 88,
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PE-023": {
@@ -634434,8 +634431,9 @@
       "name": "Miraflores",
       "provider": "local-isp",
       "domain": "miraflores.gob.pe",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -634445,8 +634443,9 @@
       "name": "Miraflores",
       "provider": "local-isp",
       "domain": "miraflores.gob.pe",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -634456,8 +634455,9 @@
       "name": "Miraflores District",
       "provider": "local-isp",
       "domain": "miraflores.gob.pe",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -634467,8 +634467,9 @@
       "name": "Miraflores District",
       "provider": "local-isp",
       "domain": "miraflores.gob.pe",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -637264,24 +637265,24 @@
     },
     "PH-1013": {
       "name": "Pilar",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "pilar-capiz.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-1014": {
       "name": "Pili",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "pili.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-1015": {
@@ -637399,14 +637400,13 @@
     },
     "PH-1024": {
       "name": "Piñan",
-      "provider": "independent",
+      "provider": "unknown",
       "domain": "pinan.gov.ph",
-      "confidence": 55,
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
+        "no_mx",
         "no_spf",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_unknown"
       ]
     },
     "PH-1025": {
@@ -640858,13 +640858,13 @@
     },
     "PH-1297": {
       "name": "Simunul",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "simunul.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-1298": {
@@ -641600,13 +641600,13 @@
     },
     "PH-1356": {
       "name": "Tago",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "tago.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-1357": {
@@ -643959,13 +643959,13 @@
     },
     "PH-213": {
       "name": "Bontoc",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "lgubontoc.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-214": {
@@ -644624,13 +644624,13 @@
     },
     "PH-272": {
       "name": "Cagwait",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "cagwait.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-273": {
@@ -644681,13 +644681,12 @@
     },
     "PH-277": {
       "name": "Calamba",
-      "provider": "google",
+      "provider": "independent",
       "domain": "calambacity.gov.ph",
-      "confidence": 95,
+      "confidence": 78,
       "flags": [
-        "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -645690,13 +645689,13 @@
     },
     "PH-365": {
       "name": "Cortes",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "cortes.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-366": {
@@ -649125,13 +649124,13 @@
     },
     "PH-667": {
       "name": "Leon",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "leon.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-668": {
@@ -649501,13 +649500,13 @@
     },
     "PH-700": {
       "name": "Lobo",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "lobo.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-701": {
@@ -650022,13 +650021,13 @@
     },
     "PH-745": {
       "name": "Maddela",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "maddela-quirino.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-746": {
@@ -650464,13 +650463,13 @@
     },
     "PH-784": {
       "name": "Malimono",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "malimono.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-785": {
@@ -652121,13 +652120,13 @@
     },
     "PH-930": {
       "name": "Padada",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "padada.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-931": {
@@ -652861,13 +652860,13 @@
     },
     "PH-994": {
       "name": "Payao",
-      "provider": "google",
-      "domain": "gmail.com",
-      "confidence": 90,
+      "provider": "unknown",
+      "domain": "payaosibugay.gov.ph",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PH-995": {
@@ -653946,7 +653945,7 @@
     },
     "PL-0088": {
       "name": "Powiat Świebodziński",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "powiat.swiebodzin.pl",
       "confidence": 88,
       "flags": [
@@ -653991,7 +653990,7 @@
     },
     "PL-0092": {
       "name": "Ostrołęka",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "um.ostroleka.pl",
       "confidence": 90,
       "flags": [
@@ -656988,7 +656987,7 @@
     },
     "PL-0362": {
       "name": "Sosnowiec",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "um.sosnowiec.pl",
       "confidence": 88,
       "flags": [
@@ -712602,13 +712601,15 @@
     },
     "XK-002": {
       "name": "Dragash Municipality",
-      "provider": "unknown",
-      "domain": "dragash.rks-gov.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rks-gov.net",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "XK-003": {
