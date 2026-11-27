@@ -53381,11 +53381,10 @@
       "name": "City of Moreton Bay",
       "provider": "microsoft",
       "domain": "moretonbay.qld.gov.au",
-      "confidence": 85,
+      "confidence": 80,
       "flags": [
-        "spf_strict",
         "mx_spf_match",
-        "multi_provider_spf:aws+mailchimp+microsoft",
+        "multi_provider_spf:aws+microsoft",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -56351,7 +56350,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "multi_provider_spf:aws+microsoft",
+        "multi_provider_spf:aws+microsoft+zoho",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -57139,11 +57138,12 @@
       "name": "Shire of Harvey",
       "provider": "microsoft",
       "domain": "harvey.wa.gov.au",
-      "confidence": 80,
+      "confidence": 95,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AU-452": {
@@ -57754,7 +57754,7 @@
         "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
-        "multi_provider_spf:google+microsoft+zoho",
+        "multi_provider_spf:microsoft+zoho",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -62711,13 +62711,13 @@
     },
     "BD-008": {
       "name": "Sylhet Division",
-      "provider": "independent",
-      "domain": "mopa.gov.bd",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "sylhetdiv.gov.bd",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "BE-11001": {
@@ -85441,13 +85441,13 @@
     },
     "BR-1243": {
       "name": "Cocal de Telha",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "cocaldetelha.pi.gov.br",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "BR-1244": {
@@ -200494,7 +200494,7 @@
     },
     "CL-273": {
       "name": "San Bernardo",
-      "provider": "google",
+      "provider": "microsoft",
       "domain": "sanbernardo.cl",
       "confidence": 93,
       "flags": [
@@ -207818,11 +207818,12 @@
       "name": "Yumbo",
       "provider": "microsoft",
       "domain": "yumbo.gov.co",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "CO-1087": {
@@ -389125,13 +389126,14 @@
     },
     "ES-1904": {
       "name": "Castrillo de la Reina",
-      "provider": "unknown",
-      "domain": "castrillodelareina.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-1905": {
@@ -402636,13 +402638,14 @@
     },
     "ES-2969": {
       "name": "Fuentelcésped",
-      "provider": "unknown",
-      "domain": "fuentelcesped.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-297": {
@@ -442057,8 +442060,7 @@
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "ES-608": {
@@ -445616,13 +445618,14 @@
     },
     "ES-6361": {
       "name": "Santa Cecilia",
-      "provider": "unknown",
-      "domain": "santacecilia.burgos.es",
-      "confidence": 15,
+      "provider": "google",
+      "domain": "diputaciondeburgos.net",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-6362": {
@@ -454655,13 +454658,13 @@
     },
     "ES-7070": {
       "name": "Tosos",
-      "provider": "unknown",
+      "provider": "independent",
       "domain": "tosos.org",
-      "confidence": 15,
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "ES-7071": {
@@ -455757,14 +455760,13 @@
     },
     "ES-7158": {
       "name": "Ugena",
-      "provider": "microsoft",
-      "domain": "ugena.es",
-      "confidence": 95,
+      "provider": "independent",
+      "domain": "ayto-ugena.org",
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "ES-7159": {
@@ -492783,7 +492785,7 @@
     },
     "GR-064": {
       "name": "Delfi",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "dimosdelfon.gr",
       "confidence": 90,
       "flags": [
@@ -492854,9 +492856,9 @@
       "name": "Dirfys-Messapia",
       "provider": "local-isp",
       "domain": "ddm.gov.gr",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -510014,9 +510016,8 @@
       "name": "Knin",
       "provider": "independent",
       "domain": "knin.hr",
-      "confidence": 93,
+      "confidence": 88,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified"
@@ -524814,8 +524815,7 @@
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "KE-031": {
@@ -529424,13 +529424,13 @@
     },
     "KZ-015": {
       "name": "Ulytau Region",
-      "provider": "independent",
-      "domain": "ulytau-region.gov.kz",
-      "confidence": 88,
+      "provider": "unknown",
+      "domain": "gov.kz",
+      "confidence": 15,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "KZ-016": {
@@ -556561,8 +556561,7 @@
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "smtp_suggests:microsoft"
+        "provider_classified"
       ]
     },
     "MX-044": {
@@ -654163,13 +654162,13 @@
     },
     "PL-0107": {
       "name": "Powiat Ostrołęcki",
-      "provider": "local-isp",
+      "provider": "unknown",
       "domain": "powiat.ostroleka.pl",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "PL-0108": {
@@ -658454,9 +658453,8 @@
       "name": "Cantanhede",
       "provider": "microsoft",
       "domain": "cm-cantanhede.pt",
-      "confidence": 100,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified",
@@ -660969,7 +660967,7 @@
     },
     "PT-0302": {
       "name": "Portel",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "cm-portel.pt",
       "confidence": 88,
       "flags": [
@@ -663080,14 +663078,13 @@
     },
     "PY-160": {
       "name": "Pirayú",
-      "provider": "unknown",
-      "domain": "",
-      "confidence": 0,
+      "provider": "independent",
+      "domain": "pirayu.gov.py",
+      "confidence": 90,
       "flags": [
-        "no_domain",
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "PY-161": {
@@ -680995,10 +680992,10 @@
       "name": "Brda",
       "provider": "local-isp",
       "domain": "obcina-brda.si",
-      "confidence": 90,
+      "confidence": 80,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -681818,11 +681815,13 @@
       "name": "Moravče",
       "provider": "microsoft",
       "domain": "moravce.si",
-      "confidence": 93,
+      "confidence": 88,
       "flags": [
+        "multiple_mx",
         "spf_softfail",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
+        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -701926,14 +701925,13 @@
     },
     "TW-005": {
       "name": "Kinmen County",
-      "provider": "independent",
-      "domain": "mail.kinmen.gov.tw",
-      "confidence": 93,
+      "provider": "unknown",
+      "domain": "kinmen.gov.tw",
+      "confidence": 15,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "TW-006": {
@@ -714184,7 +714182,8 @@
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "smtp_suggests:microsoft"
       ]
     },
     "ZA-077": {
@@ -717401,10 +717400,11 @@
       "name": "Makoni District",
       "provider": "google",
       "domain": "makonirdc.co.zw",
-      "confidence": 55,
+      "confidence": 93,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
